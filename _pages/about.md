@@ -7,7 +7,7 @@ subtitle_2: <a href='https://is.mpg.de/'>Max Planck Institute for Intelligent Sy
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: jincheng.jpeg
   image_circular: false # crops the image to make it circular
 #  address: >
 #    <p>555 your office number</p>
