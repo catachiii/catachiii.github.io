@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://ethz.ch/en.html'>ETH Zürich</a>, <a href='https://is.mpg.de/'>Max Planck Institute for Intelligent Systems</a>
+subtitle_1: <a href='https://ethz.ch/en.html'>ETH Zürich</a>
+subtitle_2: <a href='https://is.mpg.de/'>Max Planck Institute for Intelligent Systems</a>
 
 profile:
   align: right
