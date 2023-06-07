@@ -28,11 +28,11 @@ layout: default
               class=profile_image_class
               alt=page.profile.image -%}
             {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
+<!--            {%- if page.profile.address %}-->
+<!--            <div class="address">-->
+<!--              {{ page.profile.address }}-->
+<!--            </div>-->
+<!--            {%- endif %}-->
           </div>
           {%- endif %}
 
@@ -47,10 +47,10 @@ layout: default
           {%- endif %}
 
           <!-- Latest posts -->
-          {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
-          {%- endif %}
+<!--          {% if page.latest_posts -%}-->
+<!--            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>-->
+<!--            {%- include latest_posts.html %}-->
+<!--          {%- endif %}-->
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
