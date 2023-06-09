@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 #### biography
 
 I'm currently a master student in mechanical engineering at [ETH Zürich](https://ethz.ch/en.html), Switzerland 🇨🇭.
-Before that, I received my bachelor'
+Before that, I received my bachelor's degree in vehicle engineering at [Tsinghua University](https://www.tsinghua.edu.cn/en/), Beijing, China 🇨🇳. 
 
 Starting from April 2023, I have been working on reinforcement learning with unsupervised skill discovery in [Autonomous Learning](https://al.is.mpg.de/) group at [Max Planck Institute for Intelligent Systems (MPI-IS)](https://is.mpg.de/), Tübingen, Germany, under the supervision from [Prof. Dr. Georg Martius](https://al.is.mpg.de/person/gmartius). 
 
