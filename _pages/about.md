@@ -18,21 +18,21 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-#### biography
+#### - biography
 
 I'm currently a master student in mechanical engineering at [ETH Zürich](https://ethz.ch/en.html), Switzerland 🇨🇭.
 Before that, I received my bachelor's degree in vehicle engineering at [Tsinghua University](https://www.tsinghua.edu.cn/en/), Beijing, China 🇨🇳. 
 
-Starting from April 2023, I have been working on reinforcement learning with unsupervised skill discovery in [Autonomous Learning](https://al.is.mpg.de/) group at [Max Planck Institute for Intelligent Systems (MPI-IS)](https://is.mpg.de/), Tübingen, Germany, under the supervision from [Prof. Dr. Georg Martius](https://al.is.mpg.de/person/gmartius). 
+Starting from April 2023, I have been working on reinforcement learning with unsupervised skill discovery in [Autonomous Learning group](https://al.is.mpg.de/) at <img src="../assets/img/mpi.png" alt="mpi" width="15"/> [Max Planck Institute for Intelligent Systems (MPI-IS)](https://is.mpg.de/), Tübingen, Germany, under the supervision from [Prof. Dr. Georg Martius](https://al.is.mpg.de/person/gmartius). 
 
-Prior to this, I worked as a research assistant in [Computational Robotics Lab](http://crl.ethz.ch/) at ETH Zürich under the supervision from [Prof. Dr. Stelian Coros](http://crl.ethz.ch/people/coros/index.html). I have also finished my master thesis and semester project in [Robotic Systems Lab](https://rsl.ethz.ch/) under the supervision from [Prof. Dr. Marco Hutter](https://mavt.ethz.ch/people/person-detail.hutter.html).
+Prior to this, I worked as a research assistant in <img src="../assets/img/crl.png" alt="mpi" width="15"/> [Computational Robotics Lab](http://crl.ethz.ch/) at ETH Zürich under the supervision from [Prof. Dr. Stelian Coros](http://crl.ethz.ch/people/coros/index.html). I have also finished my master thesis and semester project in <img src="../assets/img/rsl_logo.png" alt="mpi" width="15"/> [Robotic Systems Lab](https://rsl.ethz.ch/) under the supervision from [Prof. Dr. Marco Hutter](https://mavt.ethz.ch/people/person-detail.hutter.html).
 
-#### research
+#### - research
 
 My research interest lies in empowering artificial agents with the ability of learning motions by imitating or discovering them. Specifically, I focus on legged systems such as quadrupedal robots, humanoids and simulated characters, which offers great
 potential in learning agile and natural behaviors 🐕.
 
-#### hobbies
+#### - hobbies
 
 Other than professional bios, I am from [Chongqing](https://goo.gl/maps/dJPha9VP7CFDoNqg7), southwest of China, which is the largest city in the world by population. 
 I am extremely fond of [Chongqing hot pot](https://en.wikipedia.org/wiki/Chongqing_hot_pot) 🥘🌶. Besides, I love playing video games 🎮 and watching movies 🍿. During my free time, I enjoy hiking in the mountains 🏔️ and snowboarding 🏂 in winter.
