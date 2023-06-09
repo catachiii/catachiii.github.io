@@ -29,7 +29,7 @@ Prior to this, I worked as a research assistant in [Computational Robotics Lab](
 
 #### research
 
-My research interest lies in empowering artificial agents with the ability of learning motions by imitating or discovering. Particularly, I focus on legged systems including quadrupedal robots, humanoids and simulated characters, on which I see great potential in learning agile and natural behaviors.
+My research interest lies in empowering artificial agents with the ability of learning motions by imitating or discovering them. Specifically, I focus on legged systems such as quadrupedal robots, humanoids and simulated characters, which offers great potential in learning agile and natural behaviors.
 
 #### hobbies
 
