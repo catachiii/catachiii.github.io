@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2016-08-15 10:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+🏫 I started my bachelor in vehicle engineering at Department of Mechanical Engineering, [Tsinghua University](https://www.tsinghua.edu.cn/en/), Beijing, China.  
