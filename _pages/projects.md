@@ -1,7 +1,7 @@
 ---
 layout: page
-title: gallery
-permalink: /gallery/
+title: projects
+permalink: /projects/
 description: A growing collection of robots I have worked with.
 nav: true
 nav_order: 2
