@@ -29,13 +29,12 @@ Prior to this, I worked as a research assistant in <img src="../assets/img/crl.p
 
 #### - research
 
-My research interest lies in empowering artificial agents with the ability of learning motions by imitating or discovering them. Specifically, I focus on legged systems such as quadrupedal robots 🐕🐈, humanoids 🦾🦿and simulated characters 🚶🏻🏃🏻, which offers great
-potential in learning agile and natural behaviors .
+My research interest lies in empowering artificial agents with the ability of learning motions by imitating or discovering them. Specifically, I focus on legged systems such as quadrupedal robots 🐕🐈, humanoids 🦾🦿and simulated characters 🚶🏻🏃🏻, which offer great potential in learning agile and natural behaviors.
 
 #### - hobbies
 
 Other than professional bios, I am from [Chongqing](https://goo.gl/maps/dJPha9VP7CFDoNqg7), southwest of China, which is the largest city in the world by population. 
-I am extremely fond of [Chongqing hot pot](https://en.wikipedia.org/wiki/Chongqing_hot_pot). Besides, I love playing video games and watching movies. During my free time, I enjoy hiking in the mountains and snowboarding in winter.
+I am extremely fond of [Chongqing hot pot](https://en.wikipedia.org/wiki/Chongqing_hot_pot). Besides, I love playing video games and watching movies. During my free time, I enjoy hiking in the mountains, playing tennis and snowboarding in winter.
 
 
 [//]: # ()

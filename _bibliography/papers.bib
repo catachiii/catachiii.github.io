@@ -4,7 +4,13 @@
   title={RL+ Model-based Control: Using On-demand Optimal Control to Learn Versatile Legged Locomotion},
   author={Kang, Dongho and Cheng, Jin and Zamora, Miguel and Zargarbashi, Fatemeh and Coros, Stelian},
   journal={arXiv preprint arXiv:2305.17842},
-  year={2023}
+  year={2023},
+  arxiv={2305.17842},
+  video={https://youtu.be/gXDP87yVq4o},
+  preview={rl+.png},
+  abstract={This letter presents a versatile control method for dynamic and robust legged locomotion that integrates model-based optimal control with reinforcement learning (RL). Our approach involves training an RL policy to imitate reference motions generated on-demand through solving a finite-horizon optimal control problem. This integration enables the policy to leverage human expertise in generating motions to imitate while also allowing it to generalize to more complex scenarios that require a more complex dynamics model. Our method successfully learns control policies capable of generating diverse quadrupedal gait patterns and maintaining stability against unexpected external perturbations in both simulation and hardware experiments. Furthermore, we demonstrate the adaptability of our method to more complex locomotion tasks on uneven terrain without the need for excessive reward shaping or hyperparameter tuning.},
+  selected={true},
+  website={https://donghok.me/rl-plus-model-based-control/}
 }
 
 @inproceedings{cheng2022haptic,
@@ -13,5 +19,11 @@
   booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   pages={6197--6204},
   year={2022},
-  organization={IEEE}
+  organization={IEEE},
+  arxiv={2207.14635},
+  video={https://youtu.be/OiprDWv0OcE},
+  html={https://ieeexplore.ieee.org/abstract/document/9981290},
+  preview={haptic_teleoperation.png},
+  abstract={Model Predictive Control (MPC) schemes have proven their efficiency in controlling high degree-of-freedom (DoF) complex robotic systems. However, they come at a high computational cost and an update rate of about tens of hertz. This relatively slow update rate hinders the possibility of stable haptic teleoperation of such systems since the slow feedback loops can cause instabilities and loss of transparency to the operator. This work presents a novel framework for transparent teleoperation of MPC-controlled complex robotic systems. In particular, we employ a feedback MPC approach [1] and exploit its structure to account for the operator input at a fast rate which is independent of the update rate of the MPC loop itself. We demonstrate our framework on a mobile manipulator platform and show that it significantly improves haptic teleoperation's transparency and stability. We also highlight that the proposed feedback structure is constraint satisfactory and does not violate any constraints defined in the optimal control problem. To the best of our knowledge, this work is the first realization of the bilateral teleoperation of a legged manipulator using a whole-body MPC framework.},
+  selected={true}
 }
