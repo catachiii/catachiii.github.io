@@ -2,7 +2,7 @@
 layout: page
 title: Chongqing 🇨🇳
 description: 
-img: assets/img/photos/chongqing/chongqing_4.JPG
+img: assets/img/photos/chongqing/chongqing_1.JPG
 importance: 1
 category: photography
 ---
