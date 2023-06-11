@@ -2,10 +2,10 @@
 layout: page
 title: gallery
 permalink: /gallery/
-description: A growing collection of robots I have worked with.
+description: A growing collection of robots I have worked with, and another collection of photos I have taken.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [robots, photography]
 horizontal: false
 ---
 
