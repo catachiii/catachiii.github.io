@@ -7,7 +7,7 @@ subtitle_2: <a href='https://is.mpg.de/'>Max Planck Institute for Intelligent Sy
 
 profile:
   align: right
-  image: jincheng.jpeg
+  image: jincheng.jpg
   image_circular: false # crops the image to make it circular
   address: >
 #    <p>Zürich, Switzerland</p>
