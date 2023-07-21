@@ -3,7 +3,7 @@ layout: distill
 title: Haptic Teleoperation of High-dimensional Robotic Systems Using a Feedback MPC Framework
 description: 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022)
 giscus_comments: false
-tags: publication robotics
+tags: publication robotics mpc
 date: 2022-03-08
 
 authors:

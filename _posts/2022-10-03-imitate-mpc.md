@@ -3,7 +3,7 @@ layout: distill
 title: Imitating Model-based Control Using Deep RL
 description: Master Thesis, D-MAVT, ETH Zürich
 giscus_comments: false
-tags: robotics
+tags: robotics mpc rl
 date: 2022-10-03
 
 authors:
