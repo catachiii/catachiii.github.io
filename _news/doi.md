@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📑 I am happy to present our recent work from [Autonomous Learning group](https://al.is.mpg.de/) at [Max Planck Institute for Intelligent Systems (MPI-IS)](https://is.mpg.de/), *Diverse Offline Imitation via Fenchel Duality*. Please check the [project website](https://tinyurl.com/diversity-via-duality) for more details.
+📑 I am happy to share our recent work from [Autonomous Learning group](https://al.is.mpg.de/) at [Max Planck Institute for Intelligent Systems (MPI-IS)](https://is.mpg.de/), *Diverse Offline Imitation via Fenchel Duality*. Please check the [project website](https://tinyurl.com/diversity-via-duality) for more details.
