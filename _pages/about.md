@@ -33,7 +33,7 @@ My research interest lies in empowering artificial agents with the ability of le
 
 #### - hobbies
 
-Other than professional bios, I am from [Chongqing](https://goo.gl/maps/dJPha9VP7CFDoNqg7), southwest of China, which is the largest city in the world by population. 
+Other than professional bios, I am from [Chongqing](https://goo.gl/maps/dJPha9VP7CFDoNqg7), southwest of China. 
 I am extremely fond of [Chongqing hot pot](https://en.wikipedia.org/wiki/Chongqing_hot_pot). Besides, I love playing video games and watching movies. During my free time, I enjoy hiking in the mountains, playing tennis and snowboarding in winter.
 
 
