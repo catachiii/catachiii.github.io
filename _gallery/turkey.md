@@ -31,13 +31,9 @@ category: photography
 
 <img src="../../../assets/img/photos/turkey/turkey_12.jpg"  width="900">
 
-<img src="../../../assets/img/photos/turkey/turkey_13.jpg"  width="900">
-
 <img src="../../../assets/img/photos/turkey/turkey_14.jpg"  width="900">
 
 <img src="../../../assets/img/photos/turkey/turkey_15.jpg"  width="900">
-
-<img src="../../../assets/img/photos/turkey/turkey_16.jpg"  width="900">
 
 <img src="../../../assets/img/photos/turkey/turkey_17.jpg"  width="900">
 
@@ -60,8 +56,6 @@ category: photography
 <img src="../../../assets/img/photos/turkey/turkey_26.jpg"  width="900">
 
 <img src="../../../assets/img/photos/turkey/turkey_27.jpg"  width="900">
-
-<img src="../../../assets/img/photos/turkey/turkey_28.jpg"  width="900">
 
 <img src="../../../assets/img/photos/turkey/turkey_29.jpg"  width="900">
 
