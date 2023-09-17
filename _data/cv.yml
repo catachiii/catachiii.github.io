@@ -6,14 +6,18 @@
     - name: Date of Birth
       value: 22nd February 1998
     - name: Languages
-      value: English, Chinese (optional German and Japanese)
+      value: English, Chinese (optionally German and Japanese)
 
 - title: Education
   type: time_table
   contents:
+    - title: PhD student in Computer Science
+      institution: ETH Zürich, Zürich, Switzerland 🇨🇭
+      year: Oct 2023 -
+
     - title: MSc in Mechanical Engineering
       institution: ETH Zürich, Zürich, Switzerland 🇨🇭
-      year: 2020 - 2023
+      year: Aug 2020 - July 2023
 #      description:
 #        - Description 1.
 #        - Description 2.
@@ -23,7 +27,7 @@
 #            - Sub-description 2.
     - title: BSc in Vehicle Engineering
       institution: Tsinghua University, Beijing, China 🇨🇳
-      year: 2016 - 2020
+      year: Spet 2016 - July 2020
 #      description:
 #        - Description 1.
 #        - Description 2.
@@ -33,7 +37,7 @@
   contents:
     - title: Research Intern
       institution: Max Planck Institute for Intelligent Systems, Tübingen, Germany 🇩🇪
-      year: Apr 2023 -
+      year: Apr 2023 - Sept 2023
       description:
         - Autonomous Learning group under the supervision of Prof. Dr. Georg Matius.
         - I worked on diverse offline imitation learning and reinforcement learning with unsupervised skill discovery on quadruped robots (SOLO12).
