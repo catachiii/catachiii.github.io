@@ -20,12 +20,12 @@ social: true  # includes social icons at the bottom of the page
 
 #### - biography
 I'm currently a PhD student in Computer Science at <img src="../assets/img/eth_short.png" alt="eth" height="15"/> [ETH Zürich](https://ethz.ch/en.html), Switzerland 🇨🇭.
-Currently I work in <img src="../assets/img/crl.png" alt="mpi" width="15"/> [Computational Robotics Lab](http://crl.ethz.ch/) advised by [Prof. Dr. Stelian Coros](http://crl.ethz.ch/people/coros/index.html).
+I'm affiliated with <img src="../assets/img/crl.png" alt="crl" width="15"/> [Computational Robotics Lab](http://crl.ethz.ch/) advised by [Prof. Dr. Stelian Coros](http://crl.ethz.ch/people/coros/index.html).
 
 Prior to this, I received my master's degree in mechanical engineering at <img src="../assets/img/eth_short.png" alt="eth" height="15"/> [ETH Zürich](https://ethz.ch/en.html) and my bachelor's degree in vehicle engineering at <img src="../assets/img/thu_short.png" alt="eth" height="15"/> [Tsinghua University](https://www.tsinghua.edu.cn/en/) in China 🇨🇳. 
 
 During my master program, I worked on reinforcement learning with unsupervised skill discovery in [Autonomous Learning group](https://al.is.mpg.de/) at <img src="../assets/img/mpi.png" alt="mpi" width="15"/> [Max Planck Institute for Intelligent Systems (MPI-IS)](https://is.mpg.de/) under the supervision of [Prof. Dr. Georg Martius](https://al.is.mpg.de/person/gmartius). 
-I have also worked as a research assistant in <img src="../assets/img/crl.png" alt="mpi" width="15"/> [Computational Robotics Lab](http://crl.ethz.ch/) under the supervision of [Prof. Dr. Stelian Coros](http://crl.ethz.ch/people/coros/index.html), and finished my master thesis, semester project in <img src="../assets/img/rsl_logo.png" alt="mpi" width="15"/> [Robotic Systems Lab](https://rsl.ethz.ch/) under the supervision of [Prof. Dr. Marco Hutter](https://mavt.ethz.ch/people/person-detail.hutter.html).
+I have also worked as a research assistant in <img src="../assets/img/crl.png" alt="crl" width="15"/> [Computational Robotics Lab](http://crl.ethz.ch/) under the supervision of [Prof. Dr. Stelian Coros](http://crl.ethz.ch/people/coros/index.html), and finished my master thesis, semester project in <img src="../assets/img/rsl_logo.png" alt="rsl" width="15"/> [Robotic Systems Lab](https://rsl.ethz.ch/) under the supervision of [Prof. Dr. Marco Hutter](https://mavt.ethz.ch/people/person-detail.hutter.html).
 
 #### - research
 
