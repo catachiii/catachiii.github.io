@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle_1: <a href='https://ethz.ch/en.html'>ETH Zürich</a> <img src="../assets/img/eth_long.png" alt="eth" height="15"/>
+subtitle_1: <img src="../assets/img/chinese_name.png" alt="jin_cheng" width="100"/>
 #subtitle_2: <a href='https://is.mpg.de/'>Max Planck Institute for Intelligent Systems</a> <img src="../assets/img/mpi_long.png" alt="mpi" height="15"/>
 
 profile:
