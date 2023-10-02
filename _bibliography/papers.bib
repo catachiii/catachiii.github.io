@@ -1,27 +1,29 @@
 ---
 ---
+
+@article{vlastelica2023diverse,
+  title={Diverse Offline Imitation Learning},
+  author={Marin Vlastelica and Jin Cheng and Georg Martius and Pavel Kolev},
+  journal={In submission to The Twelfth International Conference on Learning Representations (ICLR 2024)},
+  year={2023},
+  arxiv={2307.11373},
+  preview={doi.png},
+  abstract={There has been significant recent progress in the area of unsupervised skill discovery, utilizing various information-theoretic objectives as measures of diversity. Despite these advances, challenges remain: current methods require significant online interaction, fail to leverage vast amounts of available task-agnostic data and typically lack a quantitative measure of skill utility. We address these challenges by proposing a principled offline algorithm for unsupervised skill discovery that, in addition to maximizing diversity, ensures that each learned skill imitates state-only expert demonstrations to a certain degree. Our main analytical contribution is to connect Fenchel duality, reinforcement learning, and unsupervised skill discovery to maximize a mutual information objective subject to KL-divergence state occupancy constraints. Furthermore, we demonstrate the effectiveness of our method on the standard offline benchmark D4RL and on a custom offline dataset collected from a 12-DoF quadruped robot for which the policies trained in simulation transfer well to the real robotic system.},
+  selected={true},
+  website={https://sites.google.com/view/diversity-via-duality/}
+}
+
 @article{cheng2023learning,
   title={Learning Diverse Skills for Local Navigation under Multi-constraint Optimality},
   author={Jin Cheng and Marin Vlastelica and Pavel Kolev and Chenhao Li and Georg Martius},
   journal={In submission to 2024 IEEE International Conference on Robotics and Automation (ICRA 2024)},
   year={2023},
   preview={dominic.png},
-  abstract={Despite many successful applications of data-driven control in robotics, extracting meaningful diverse behaviors remains a challenge. Typically, task performance needs to be compromised in order to achieve diversity. In many scenarios, task requirements are specified as a multitude of reward terms, each requiring a different trade-off. In this work, we take a constrained optimization viewpoint on the quality-diversity trade-off and show that we can obtain diverse policies while imposing multiple constraints on the reward terms. In line with previous work, further control of the diversity level can be achieved through an attract-repel reward term motivated by the Van der Waals force. We demonstrate the effectiveness of our method on a local navigation task where a quadruped robot needs to reach the target within a finite horizon. Finally, our trained policies transfer well to the real 12-DoF quadruped robot, Solo12, and exhibit diverse agile behaviors with successful obstacle traversal.},
+  abstract={Despite many successful applications of data-driven control in robotics, extracting meaningful diverse behaviors remains a challenge. Typically, task performance needs to be compromised in order to achieve diversity. In many scenarios, task requirements are specified as a multitude of reward terms, each requiring a different trade-off. In this work, we take a constrained optimization viewpoint on the quality-diversity trade-off and show that we can obtain diverse policies while imposing constraints on their value functions which are defined through distinct rewards. In line with previous work, further control of the diversity level can be achieved through an attract-repel reward term motivated by the Van der Waals force. We demonstrate the effectiveness of our method on a local navigation task where a quadruped robot needs to reach the target within a finite horizon. Finally, our trained policies transfer well to the real 12-DoF quadruped robot, Solo12, and exhibit diverse agile behaviors with successful obstacle traversal.},
   selected={true},
   website={https://sites.google.com/view/icra2024-dominic}
 }
 
-@article{vlastelica2023diverse,
-  title={Diverse Offline Imitation via Fenchel Duality},
-  author={Marin Vlastelica and Pavel Kolev and Jin Cheng and Georg Martius},
-  journal={The 16th European Workshop on Reinforcement Learning (EWRL 2023) / The 6th International Workshop on Intrinsically Motivated Open-ended Learning (IMOL 2023)},
-  year={2023},
-  arxiv={2307.11373},
-  preview={doi.png},
-  abstract={There has been significant recent progress in the area of unsupervised skill discovery, with various works proposing mutual information based objectives, as a source of intrinsic motivation. Prior works predominantly focused on designing algorithms that require online access to the environment. In contrast, we develop an offline skill discovery algorithm. Our problem formulation considers the maximization of a mutual information objective constrained by a KL-divergence. More precisely, the constraints ensure that the state occupancy of each skill remains close to the state occupancy of an expert, within the support of an offline dataset with good state-action coverage. Our main contribution is to connect Fenchel duality, reinforcement learning and unsupervised skill discovery, and to give a simple offline algorithm for learning diverse skills that are aligned with an expert.},
-  selected={true},
-  website={https://sites.google.com/view/diversity-via-duality/}
-}
 
 @article{kang2023rl+,
   title={RL+ Model-based Control: Using On-demand Optimal Control to Learn Versatile Legged Locomotion},
