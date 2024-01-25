@@ -22,18 +22,18 @@ bottom_img: true
 #### - biography
 Hi!
 
-I'm a doctoral student in Computer Science at <img src="../assets/img/eth_short.png" alt="eth" height="15"/> [ETH Zürich](https://ethz.ch/en.html), Switzerland 🇨🇭, affiliated with <img src="../assets/img/crl.png" alt="crl" width="15"/> [Computational Robotics Lab](http://crl.ethz.ch/) advised by [Prof. Dr. Stelian Coros](http://crl.ethz.ch/people/coros/index.html).
+I'm a doctoral student in Computer Science at <img src="../assets/img/eth_short.png" alt="eth" height="15"/> [ETH Zürich](https://ethz.ch/en.html), Switzerland 🇨🇭, affiliated with <img src="../assets/img/crl.png" alt="crl" width="15"/> [Computational Robotics Lab](http://crl.ethz.ch/) advised by [Stelian Coros](http://crl.ethz.ch/people/coros/index.html).
 
 Prior to this, I received my master's degree in mechanical engineering at <img src="../assets/img/eth_short.png" alt="eth" height="15"/> [ETH Zürich](https://ethz.ch/en.html) and my bachelor's degree in vehicle engineering at <img src="../assets/img/thu_short.png" alt="eth" height="15"/> [Tsinghua University](https://www.tsinghua.edu.cn/en/). 
 
 #### - research
 
-My research interest lies in empowering artificial agents with the ability of learning motions by imitating or discovering them. Specifically, I focus on legged systems such as quadrupedal robots 🐕🐈, humanoids 🦾🦿and simulated characters 🚶🏻🏃🏻, which offer great potential in learning agile and natural behaviors.
+My research interest lies in empowering artificial agents with the ability of natural locomotion and manipulation through reinforcement learning. I mainly focus on mobile robots such as quadrupeds 🐕🐈, humanoids 🏃🏻💃🏻.
 
 #### - hobbies
 
 Other than professional bios, I am from [Chongqing](https://goo.gl/maps/dJPha9VP7CFDoNqg7), southwest of China. 
-I am extremely fond of [Chongqing hot pot](https://en.wikipedia.org/wiki/Chongqing_hot_pot). Besides, I love playing video games and watching movies. During my free time, I enjoy hiking in the mountains, playing tennis and snowboarding in winter.
+I am extremely fond of [Chongqing hot pot](https://en.wikipedia.org/wiki/Chongqing_hot_pot). Besides, I love playing video games and watching animes / TV series / movies. During my free time, I enjoy playing tennis 🎾 and snowboarding in winter 🏂.
 
 
 [//]: # ()
