@@ -11,7 +11,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD student in Computer Science
+    - title: Doctoral student in Computer Science
       institution: ETH Zürich, Zürich, Switzerland 🇨🇭
       year: Oct 2023 -
 
@@ -35,6 +35,12 @@
 - title: Research Experience
   type: time_table
   contents:
+    - title: Scientific Assistant
+      institution: ETH Zürich, Zürich, Switzerland 🇨🇭
+      year: Oct 2023 -
+      description:
+        - Computational Robotics Lab (CRL) under the supervision of Prof. Dr. Stelian Coros.
+        - I worked on legged loco-manipulation with reinforcement learning.
     - title: Research Intern
       institution: Max Planck Institute for Intelligent Systems, Tübingen, Germany 🇩🇪
       year: Apr 2023 - Sep 2023
@@ -91,11 +97,14 @@
     - title: Robotics
       items: 
         - Locomotion on legged robotics
+        - Loco-manipulation with legged systems and humanoids
         - Sim-to-real transfer
         - Agility in robotic systems
-    - title: Reinforcement learning
+    - title: Machine learning
       items:
-        - Imitation learning
+        - Reinforcement learning
+        - Imitation learning / Learning from demonstrations
+        - Representation learning
         - Unsupervised skill discovery
 
 - title: Other Interests
