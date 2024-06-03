@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
+permalink: /projects/
+title: projects
 description: 
 years: [2024, 2023, 2022]
 nav: true
