@@ -22,13 +22,13 @@ bottom_img: true
 #### - biography
 Hi!
 
-I'm a doctoral student in Computer Science at <img src="../assets/img/eth_short.png" alt="eth" height="15"/> [ETH Zürich](https://ethz.ch/en.html), Switzerland 🇨🇭, affiliated with <img src="../assets/img/crl.png" alt="crl" width="15"/> [Computational Robotics Lab](http://crl.ethz.ch/) advised by [Prof. Stelian Coros](http://crl.ethz.ch/people/coros/index.html).
+I'm a doctoral student in Computer Science at <img src="../assets/img/eth_short.png" alt="eth" height="20"/> [ETH Zürich](https://ethz.ch/en.html), Switzerland 🇨🇭, affiliated with <img src="../assets/img/crl.png" alt="crl" width="15"/> [Computational Robotics Lab](http://crl.ethz.ch/), advised by <img src="../assets/img/eth_short.png" alt="eth" height="20"/> [Prof. Stelian Coros](http://crl.ethz.ch/people/coros/index.html) and <img src="../assets/img/cmu-lettermark-r.png" alt="cmu" height="10"/> [Prof. Guanya Shi](https://www.gshi.me/).
 
-Prior to this, I received my master's degree in mechanical engineering at <img src="../assets/img/eth_short.png" alt="eth" height="15"/> [ETH Zürich](https://ethz.ch/en.html) and my bachelor's degree in vehicle engineering at <img src="../assets/img/thu_short.png" alt="eth" height="15"/> [Tsinghua University](https://www.tsinghua.edu.cn/en/). 
+Prior to this, I received my master's degree in mechanical engineering at <img src="../assets/img/eth_short.png" alt="eth" height="20"/> [ETH Zürich](https://ethz.ch/en.html) and my bachelor's degree in vehicle engineering at <img src="../assets/img/thu_short.png" alt="eth" height="15"/> [Tsinghua University](https://www.tsinghua.edu.cn/en/). 
 
 #### - research
 
-My research interest lies in empowering artificial agents with the ability of natural locomotion and manipulation through reinforcement learning. I mainly focus on mobile robots such as quadrupeds 🐕🐈, humanoids 🏃🏻💃🏻.
+My research interest lies in empowering mobile robots with the ability of locomotion and manipulation through reinforcement learning. I mainly focus on legged systems such as quadrupeds 🐕🐈, humanoids 🏃🏻💃🏻.
 
 #### - hobbies
 

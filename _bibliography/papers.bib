@@ -1,5 +1,15 @@
 ---
 ---
+@article{fzargarbashi2024robotkeyframing,
+  title={RobotKeyframing: Learning Locomotion with High-Level Objectives via Mixture of Dense and Sparse Rewards},
+  author={Fatemeh Zargarbashi and Jin Cheng and Dongho Kang and Robert Sumner and Stelian Coros},
+  journal={In submission},
+  year={2024},
+  arxiv={2407.11562},
+  preview={robotkeyframing.png},
+  abstract={This paper presents a novel learning-based control framework that uses keyframing to incorporate high-level objectives in natural locomotion for legged robots. These high-level objectives are specified as a variable number of partial or complete pose targets that are spaced arbitrarily in time. Our proposed framework utilizes a multi-critic reinforcement learning algorithm to effectively handle the mixture of dense and sparse rewards. Additionally, it employs a transformer-based encoder to accommodate a variable number of input targets, each associated with specific time-to-arrivals. Throughout simulation and hardware experiments, we demonstrate that our framework can effectively satisfy the target keyframe sequence at the required times. In the experiments, the multi-critic method significantly reduces the effort of hyperparameter tuning compared to the standard single-critic alternative. Moreover, the proposed transformer-based architecture enables robots to anticipate future goals, which results in quantitative improvements in their ability to reach their targets.},
+  selected={false},
+}
 
 @article{vlastelica2023diverse,
   title={Offline Diversity Maximization Under Imitation Constraints},
@@ -7,7 +17,7 @@
   journal={2024 Reinforcement Learning Conference (RLC 2024)},
   year={2024},
   arxiv={2307.11373},
-  preview={doi.gif},
+  preview={doi3.gif},
   abstract={There has been significant recent progress in the area of unsupervised skill discovery, utilizing various information-theoretic objectives as measures of diversity. Despite these advances, challenges remain: current methods require significant online interaction, fail to leverage vast amounts of available task-agnostic data and typically lack a quantitative measure of skill utility. We address these challenges by proposing a principled offline algorithm for unsupervised skill discovery that, in addition to maximizing diversity, ensures that each learned skill imitates state-only expert demonstrations to a certain degree. Our main analytical contribution is to connect Fenchel duality, reinforcement learning, and unsupervised skill discovery to maximize a mutual information objective subject to KL-divergence state occupancy constraints. Furthermore, we demonstrate the effectiveness of our method on the standard offline benchmark D4RL and on a custom offline dataset collected from a 12-DoF quadruped robot for which the policies trained in simulation transfer well to the real robotic system.},
   selected={true},
   website={https://sites.google.com/view/diversity-via-duality/}

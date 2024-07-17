@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 22nd February 1998
     - name: Languages
-      value: English, Chinese (optionally German and Japanese)
+      value: English, Chinese
 
 - title: Education
   type: time_table
