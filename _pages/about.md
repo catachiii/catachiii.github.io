@@ -20,7 +20,7 @@ bottom_img: true
 ---
 
 #### - biography
-Hi!
+Hello there!
 
 I'm a doctoral student in Computer Science at <img src="../assets/img/eth_short.png" alt="eth" height="20"/> [ETH Zürich](https://ethz.ch/en.html), Switzerland 🇨🇭, affiliated with <img src="../assets/img/crl.png" alt="crl" width="15"/> [Computational Robotics Lab](http://crl.ethz.ch/), advised by <img src="../assets/img/eth_short.png" alt="eth" height="20"/> [Prof. Stelian Coros](http://crl.ethz.ch/people/coros/index.html) and <img src="../assets/img/cmu-lettermark-r.png" alt="cmu" height="10"/> [Prof. Guanya Shi](https://www.gshi.me/).
 
@@ -30,7 +30,7 @@ Prior to this, I received my master's degree in mechanical engineering at <img s
 
 My research interest lies in empowering mobile robots with the ability of locomotion and manipulation through reinforcement learning. I mainly focus on legged systems such as quadrupeds 🐕🐈, humanoids 🏃🏻💃🏻.
 
-#### - hobbies
+#### - misc.
 
 Other than professional bios, I am from [Chongqing](https://goo.gl/maps/dJPha9VP7CFDoNqg7), southwest of China. 
 I am extremely fond of [Chongqing hot pot](https://en.wikipedia.org/wiki/Chongqing_hot_pot). Besides, I love playing video games and watching animes / TV series / movies. During my free time, I enjoy playing tennis 🎾 and snowboarding in winter 🏂.
