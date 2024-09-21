@@ -1,12 +1,12 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Jin Cheng
-    - name: Date of Birth
-      value: 22nd February 1998
-    - name: Languages
-      value: English, Chinese
+#- title: General Information
+#  type: map
+#  contents:
+#    - name: Full Name
+#      value: Jin Cheng
+#    - name: Date of Birth
+#      value: 22nd February 1998
+#    - name: Languages
+#      value: English, Chinese
 
 - title: Education
   type: time_table
@@ -15,7 +15,7 @@
       institution: ETH Zürich, Zürich, Switzerland 🇨🇭
       year: Oct 2023 -
 
-    - title: MSc in Mechanical Engineering
+    - title: M.Sc. in Mechanical Engineering
       institution: ETH Zürich, Zürich, Switzerland 🇨🇭
       year: Aug 2020 - Jul 2023
 #      description:
@@ -25,7 +25,7 @@
 #          contents:
 #            - Sub-description 1.
 #            - Sub-description 2.
-    - title: BSc in Vehicle Engineering
+    - title: B.E. in Vehicle Engineering
       institution: Tsinghua University, Beijing, China 🇨🇳
       year: Sep 2016 - Jul 2020
 #      description:
@@ -105,9 +105,9 @@
         - Reinforcement learning
         - Imitation learning / Learning from demonstrations
         - Representation learning
-        - Unsupervised skill discovery
+        - Intrinsic-motivation / Curiosity-driven learning
 
 - title: Other Interests
   type: list
   contents:
-    - Video games 🎮, hiking ⛰️, snowboarding 🏂, movies 🍿, tennis 🎾, guitar 🎸
+    - Video games 🎮, snowboarding 🏂, movies 🍿, tennis 🎾
