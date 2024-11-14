@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🏫 I started my PhD in Computer Science at [ETH Zürich](https://ethz.ch/en.html), Switzerland.
+🏫 I started my doctoral journey in Computer Science at [ETH Zürich](https://ethz.ch/en.html), Switzerland.
