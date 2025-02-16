@@ -173,6 +173,8 @@ Italo Calvino - Tutte le cosmicomiche / The Complete Cosmicomics
 
 Italo Calvino - Il castello dei denstini incrociati / The Castle of Crossed Destinies
 
+Franz Kafka - Das Schloss / The Castle
+
 Alice Munro - Runaway
 
 Claire McFall - Ferryman
