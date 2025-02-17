@@ -259,7 +259,7 @@ Paul Kalanithi - When Breath Becomes Air
 
 沈从文 / Shen Congwen - 边城
 
-矛盾 / Mao Dun - 北欧神话
+茅盾 / Mao Dun - 北欧神话
 
 郭敬明 / Guo Jingming - 梦里花落知多少
 
