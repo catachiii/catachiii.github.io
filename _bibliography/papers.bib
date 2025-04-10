@@ -1,5 +1,16 @@
 ---
 ---
+@article{cheng2025rambo,
+  title={RAMBO: RL-augmented Model-based Optimal Control for Whole-body Loco-manipulation},
+  author={Jin Cheng and Dongho Kang and Gabriele Fadini and Guanya Shi and Stelian Coros},
+  journal={In submission},
+  year={2025},
+  arxiv={2504.06662},
+  preview={rambo.png},
+  abstract={Loco-manipulation -- coordinated locomotion and physical interaction with objects -- remains a major challenge for legged robots due to the need for both accurate force interaction and robustness to unmodeled dynamics. While model-based controllers provide interpretable dynamics-level planning and optimization, they are limited by model inaccuracies and computational cost. In contrast, learning-based methods offer robustness while struggling with precise modulation of interaction forces. We introduce RAMBO -- RL-Augmented Model-Based Optimal Control -- a hybrid framework that integrates model-based reaction force optimization using a simplified dynamics model and a feedback policy trained with reinforcement learning. The model-based module generates feedforward torques by solving a quadratic program, while the policy provides feedback residuals to enhance robustness in control execution. We validate our framework on a quadruped robot across a diverse set of real-world loco-manipulation tasks -- such as pushing a shopping cart, balancing a plate, and holding soft objects -- in both quadrupedal and bipedal walking. Our experiments demonstrate that RAMBO enables precise manipulation while achieving robust and dynamic locomotion, surpassing the performance of policies trained with end-to-end scheme. In addition, our method enables flexible trade-off between end-effector tracking accuracy with compliance.},
+  selected={false},
+}
+
 @article{li2025sata,
   title={SATA: Safe and Adaptive Torque-Based Locomotion Policies Inspired by Animal Learning},
   author={Peizhuo Li and Hongyi Li and Ge Sun and Jin Cheng and Xinrong Yang and Guillaume Bellegarda and Milad Shafiee and Yuhong Cao and Auke Ijspeert and Guillaume Sartoretti},
@@ -42,7 +53,7 @@
   arxiv={2410.16687},
   preview={dare.png},
   abstract={Autonomous robot exploration requires a robot to efficiently explore and map unknown environments. Compared to conventional methods that can only optimize paths based on the current robot belief, learning-based methods show the potential to achieve improved performance by drawing on past experiences to reason about unknown areas. In this paper, we propose DARE, a novel generative approach that leverages diffusion models trained on expert demonstrations, which can explicitly generate an exploration path through one-time inference. We build DARE upon an attention-based encoder and a diffusion policy model, and introduce ground truth optimal demonstrations for training to learn better patterns for exploration. The trained planner can reason about the partial belief to recognize the potential structure in unknown areas and consider these areas during path planning. Our experiments demonstrate that DARE achieves on-par performance with both conventional and learning-based state-of-the-art exploration planners, as well as good generalizability in both simulations and real-life scenarios.},
-  selected={false},
+  selected={true},
 }
 
 @article{yoon2024spatio,
