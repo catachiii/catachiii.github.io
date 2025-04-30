@@ -51,6 +51,8 @@ nav_order: 4
 
 村上 春樹 / Murakami Haruki - 回転木馬のデッド・ヒート
 
+村上 春樹 / Murakami Haruki - アンダーグラウンド
+
 夏目 漱石 / Natsume Soseki - 行人
 
 夏目 漱石 / Natsume Soseki - 心
@@ -82,6 +84,8 @@ nav_order: 4
 川端 康成 / Kawabata Yasunari - 山の音
 
 川端 康成 / Kawabata Yasunari - 伊豆の踊子
+
+谷崎 潤一郎 / Tanizaki Junichiro - 人魚の嘆き·魔術師
 
 青山 七恵 / Aoyama Nanae - ひとり日和
 
@@ -128,6 +132,10 @@ nav_order: 4
 米澤 穂信 / Yonezawa Honobu - 犬はどこだ
 
 角田 光代 / Kakuta Mitsuyo - 八日目の蝉
+
+上野 千鶴子 / Ueno Chizuko - 往復書簡 限界から始まる
+
+宮沢 賢治 / Miyazawa Kenji - 銀河鉄道の夜
 
 Albert Camus - L'Etranger / The Stranger
 
@@ -196,6 +204,12 @@ Ruth Benedict - The Chrysanthemum and the Sword: Patterns of Japanese Culture
 Isaac Asimov - The Gods Themselves
 
 Paul Kalanithi - When Breath Becomes Air
+
+Aldous Huxley - Brave New World
+
+Gustave Le Bon - Psychologie des Foules / The Crowd: A Study of the Popular Mind
+
+Virginia Woolf - A Room of One's Own
 
 蒋勋 / Chiang Hsun - 孤独六讲
 
@@ -280,6 +294,21 @@ Paul Kalanithi - When Breath Becomes Air
 双雪涛 / Shuang Xuetao - 猎人
 
 冯唐 / Feng Tang - 冯唐诗百首
+
+张嘉佳 / Zhang Jiajia - 从你的全世界路过
+
+林奕含 / Lin Yi-han - 房思琪的初戀樂園
+
+顾城 / Gu Cheng - 顾城诗选
+
+徐志摩 / Xu Zhimo - 翡冷翠的一夜
+
+徐志摩 / Xu Zhimo - 致陆小曼
+
+王国维 / Wang Guowei - 人间词话
+
+萧红 / Xiao Hong - 呼兰河传
+
 
 
 
