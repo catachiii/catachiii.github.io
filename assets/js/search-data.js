@@ -405,181 +405,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "gallery-adam",
-          title: 'Adam',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/adam/";
-            },},{id: "gallery-alan-wake",
-          title: 'Alan Wake',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/alanwake/";
-            },},{id: "gallery-alan-wake-2",
-          title: 'Alan Wake 2',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/alanwake2/";
-            },},{id: "gallery-alma",
-          title: 'ALMA',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/alma/";
-            },},{id: "gallery-anymal",
-          title: 'ANYmal',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/anymal/";
-            },},{id: "gallery-unitree-b2",
-          title: 'Unitree B2',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/b2/";
-            },},{id: "gallery-beijing",
-          title: 'Beijing 🇨🇳',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/beijing/";
-            },},{id: "gallery-black-myth-wukong",
-          title: 'Black Myth Wukong',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/bmw/";
-            },},{id: "gallery-chengdu",
-          title: 'Chengdu 🇨🇳',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/chengdu/";
-            },},{id: "gallery-chongqing",
-          title: 'Chongqing 🇨🇳',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/chongqing/";
-            },},{id: "gallery-control",
-          title: 'Control',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/control/";
-            },},{id: "gallery-cyberpunk-2077",
-          title: 'Cyberpunk 2077',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/cyberpunk2077/";
-            },},{id: "gallery-death-stranding",
-          title: 'Death Stranding',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/deathstranding/";
-            },},{id: "gallery-elden-ring",
-          title: 'Elden Ring',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/eldenring/";
-            },},{id: "gallery-final-fantasy-vii",
-          title: 'Final Fantasy VII',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/ff7remake/";
-            },},{id: "gallery-germany",
-          title: 'Germany 🇩🇪',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/germany/";
-            },},{id: "gallery-unitree-go1",
-          title: 'Unitree Go1',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/go1/";
-            },},{id: "gallery-unitree-go2",
-          title: 'Unitree Go2',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/go2/";
-            },},{id: "gallery-god-of-war",
-          title: 'God of War',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/gow4/";
-            },},{id: "gallery-horizon",
-          title: 'Horizon',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/horizonzd/";
-            },},{id: "gallery-japan",
-          title: 'Japan 🇯🇵',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/japan/";
-            },},{id: "gallery-japan2",
-          title: 'Japan2 🇯🇵',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/japan2/";
-            },},{id: "gallery-lijiang",
-          title: 'Lijiang 🇨🇳',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/lijiang/";
-            },},{id: "gallery-milan",
-          title: 'Milan 🇮🇹',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/milan/";
-            },},{id: "gallery-nier-automata",
-          title: 'Nier Automata',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/nierautomata/";
-            },},{id: "gallery-nier-replicant",
-          title: 'Nier Replicant',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/nierreplicant/";
-            },},{id: "gallery-random",
-          title: 'Random 🔀',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/random/";
-            },},{id: "gallery-sekiro-shadows-die-twice",
-          title: 'Sekiro Shadows Die Twice',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/sekiro/";
-            },},{id: "gallery-supermegabot",
-          title: 'SuperMegaBot',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/smb/";
-            },},{id: "gallery-solo12",
-          title: 'SOLO12',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/solo12/";
-            },},{id: "gallery-spot",
-          title: 'Spot',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/spot/";
-            },},{id: "gallery-switzerland",
-          title: 'Switzerland 🇨🇭',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/switzerland/";
-            },},{id: "gallery-turkey",
-          title: 'Turkey 🇹🇷',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/turkey/";
-            },},{id: "gallery-the-legend-of-zelda",
-          title: 'The Legend of Zelda',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/zelda/";
-            },},{id: "gallery-zürich",
-          title: 'Zürich 🇨🇭',
-          description: "",
-          section: "Gallery",handler: () => {
-              window.location.href = "/gallery/zurich/";
             },},{id: "news-i-started-my-bachelor-in-vehicle-engineering-at-department-of-automotive-engineering-tsinghua-university-beijing-china",
           title: '🏫 I started my bachelor in vehicle engineering at Department of Automotive Engineering,...',
           description: "",
@@ -673,7 +498,182 @@ ninja.data = [{
           section: "News",},{id: "news-i-am-happy-to-share-my-collaboration-work-with-multi-agent-robotic-motion-laboratory-at-national-university-of-singapore-sata-safe-and-adaptive-torque-based-locomotion-policies-inspired-by-animal-learning-has-been-accepted-for-publication-in-the-proceedings-of-robotics-science-and-systems-rss-2025",
           title: '📑 I am happy to share my collaboration work with Multi-Agent Robotic Motion...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-adam",
+          title: 'Adam',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/adam/";
+            },},{id: "projects-alan-wake",
+          title: 'Alan Wake',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/alanwake/";
+            },},{id: "projects-alan-wake-2",
+          title: 'Alan Wake 2',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/alanwake2/";
+            },},{id: "projects-alma",
+          title: 'ALMA',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/alma/";
+            },},{id: "projects-anymal",
+          title: 'ANYmal',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/anymal/";
+            },},{id: "projects-unitree-b2",
+          title: 'Unitree B2',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/b2/";
+            },},{id: "projects-beijing",
+          title: 'Beijing 🇨🇳',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/beijing/";
+            },},{id: "projects-black-myth-wukong",
+          title: 'Black Myth Wukong',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bmw/";
+            },},{id: "projects-chengdu",
+          title: 'Chengdu 🇨🇳',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/chengdu/";
+            },},{id: "projects-chongqing",
+          title: 'Chongqing 🇨🇳',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/chongqing/";
+            },},{id: "projects-control",
+          title: 'Control',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/control/";
+            },},{id: "projects-cyberpunk-2077",
+          title: 'Cyberpunk 2077',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cyberpunk2077/";
+            },},{id: "projects-death-stranding",
+          title: 'Death Stranding',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/deathstranding/";
+            },},{id: "projects-elden-ring",
+          title: 'Elden Ring',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/eldenring/";
+            },},{id: "projects-final-fantasy-vii",
+          title: 'Final Fantasy VII',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ff7remake/";
+            },},{id: "projects-germany",
+          title: 'Germany 🇩🇪',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/germany/";
+            },},{id: "projects-unitree-go1",
+          title: 'Unitree Go1',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/go1/";
+            },},{id: "projects-unitree-go2",
+          title: 'Unitree Go2',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/go2/";
+            },},{id: "projects-god-of-war",
+          title: 'God of War',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gow4/";
+            },},{id: "projects-horizon",
+          title: 'Horizon',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/horizonzd/";
+            },},{id: "projects-japan",
+          title: 'Japan 🇯🇵',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/japan/";
+            },},{id: "projects-japan2",
+          title: 'Japan2 🇯🇵',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/japan2/";
+            },},{id: "projects-lijiang",
+          title: 'Lijiang 🇨🇳',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/lijiang/";
+            },},{id: "projects-milan",
+          title: 'Milan 🇮🇹',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/milan/";
+            },},{id: "projects-nier-automata",
+          title: 'Nier Automata',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nierautomata/";
+            },},{id: "projects-nier-replicant",
+          title: 'Nier Replicant',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nierreplicant/";
+            },},{id: "projects-random",
+          title: 'Random 🔀',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/random/";
+            },},{id: "projects-sekiro-shadows-die-twice",
+          title: 'Sekiro Shadows Die Twice',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sekiro/";
+            },},{id: "projects-supermegabot",
+          title: 'SuperMegaBot',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/smb/";
+            },},{id: "projects-solo12",
+          title: 'SOLO12',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/solo12/";
+            },},{id: "projects-spot",
+          title: 'Spot',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/spot/";
+            },},{id: "projects-switzerland",
+          title: 'Switzerland 🇨🇭',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/switzerland/";
+            },},{id: "projects-turkey",
+          title: 'Turkey 🇹🇷',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/turkey/";
+            },},{id: "projects-the-legend-of-zelda",
+          title: 'The Legend of Zelda',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/zelda/";
+            },},{id: "projects-zürich",
+          title: 'Zürich 🇨🇭',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/zurich/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
