@@ -1,115 +1,150 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{cheng2025rambo,
+  title={RAMBO: RL-augmented Model-based Optimal Control for Whole-body Loco-manipulation},
+  author={Jin Cheng and Dongho Kang and Gabriele Fadini and Guanya Shi and Stelian Coros},
+  journal={In submission},
+  year={2025},
+  arxiv={2504.06662},
+  preview={rambo.png},
+  abstract={Loco-manipulation -- coordinated locomotion and physical interaction with objects -- remains a major challenge for legged robots due to the need for both accurate force interaction and robustness to unmodeled dynamics. While model-based controllers provide interpretable dynamics-level planning and optimization, they are limited by model inaccuracies and computational cost. In contrast, learning-based methods offer robustness while struggling with precise modulation of interaction forces. We introduce RAMBO -- RL-Augmented Model-Based Optimal Control -- a hybrid framework that integrates model-based reaction force optimization using a simplified dynamics model and a feedback policy trained with reinforcement learning. The model-based module generates feedforward torques by solving a quadratic program, while the policy provides feedback residuals to enhance robustness in control execution. We validate our framework on a quadruped robot across a diverse set of real-world loco-manipulation tasks -- such as pushing a shopping cart, balancing a plate, and holding soft objects -- in both quadrupedal and bipedal walking. Our experiments demonstrate that RAMBO enables precise manipulation while achieving robust and dynamic locomotion, surpassing the performance of policies trained with end-to-end scheme. In addition, our method enables flexible trade-off between end-effector tracking accuracy with compliance.},
+  selected={false},
+  website={https://sites.google.com/view/rambo2025/home}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@article{li2025sata,
+  title={SATA: Safe and Adaptive Torque-Based Locomotion Policies Inspired by Animal Learning},
+  author={Peizhuo Li and Hongyi Li and Ge Sun and Jin Cheng and Xinrong Yang and Guillaume Bellegarda and Milad Shafiee and Yuhong Cao and Auke Ijspeert and Guillaume Sartoretti},
+  journal={2025 Robotics: Science and Systems (RSS 2025)},
+  year={2025},
+  arxiv={2502.12674},
+  preview={sata.png},
+  abstract={Despite recent advances in learning-based controllers for legged robots, deployments in human-centric environments remain limited by safety concerns. Most of these approaches use position-based control, where policies output target joint angles that must be processed by a low-level controller (e.g., PD or impedance controllers) to compute joint torques. Although impressive results have been achieved in controlled real-world scenarios, these methods often struggle with compliance and adaptability when encountering environments or disturbances unseen during training, potentially resulting in extreme or unsafe behaviors. Inspired by how animals achieve smooth and adaptive movements by controlling muscle extension and contraction, torque-based policies offer a promising alternative by enabling precise and direct control of the actuators in torque space. In principle, this approach facilitates more effective interactions with the environment, resulting in safer and more adaptable behaviors. However, challenges such as a highly nonlinear state space and inefficient exploration during training have hindered their broader adoption. To address these limitations, we propose SATA, a bio-inspired framework that mimics key biomechanical principles and adaptive learning mechanisms observed in animal locomotion. Our approach effectively addresses the inherent challenges of learning torque-based policies by significantly improving early-stage exploration, leading to high-performance final policies. Remarkably, our method achieves zero-shot sim-to-real transfer. Our experimental results indicate that SATA demonstrates remarkable compliance and safety, even in challenging environments such as soft/slippery terrain or narrow passages, and under significant external disturbances, highlighting its potential for practical deployments in human-centric and safety-critical scenarios.},
   selected={true},
-  inspirehep_id = {3255}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{yuan2025caiman,
+  title={CAIMAN: Causal Action Influence Detection for Sample Efficient Loco-manipulation},
+  author={Yuanchen Yuan and Jin Cheng and Núria Armengol Urpí and Stelian Coros},
+  journal={In submission},
+  year={2025},
+  arxiv={2502.00835},
+  preview={caiman.png},
+  abstract={Enabling legged robots to perform non-prehensile loco-manipulation with large and heavy objects is crucial for enhancing their versatility. However, this is a challenging task, often requiring sophisticated planning strategies or extensive task-specific reward shaping, especially in unstructured scenarios with obstacles. In this work, we present CAIMAN, a novel framework for learning loco-manipulation that relies solely on sparse task rewards. We leverage causal action influence to detect states where the robot is in control over other entities in the environment, and use this measure as an intrinsically motivated objective to enable sample-efficient learning. We employ a hierarchical control strategy, combining a low-level locomotion policy with a high-level policy that prioritizes task-relevant velocity commands. Through simulated and real-world experiments, including object manipulation with obstacles, we demonstrate the framework's superior sample efficiency, adaptability to diverse environments, and successful transfer to hardware without fine-tuning. The proposed approach paves the way for scalable, robust, and autonomous loco-manipulation in real-world applications.},
+  selected={false},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{Hoffman2025Learning,
+  title={Learning More With Less: Sample Efficient Dynamics Learning and Model-Based RL for Loco-Manipulation},
+  author={Benjamin Hoffman and Jin Cheng and Chenhao Li and Stelian Coros},
+  journal={In archive},
+  year={2025},
+  arxiv={2501.10499},
+  preview={spotcatching.png},
+  abstract={Combining the agility of legged locomotion with the capabilities of manipulation, loco-manipulation platforms have the potential to perform complex tasks in real-world applications. To this end, state-of-the-art quadrupeds with attached manipulators, such as the Boston Dynamics Spot, have emerged to provide a capable and robust platform. However, both the complexity of loco-manipulation control, as well as the black-box nature of commercial platforms pose challenges for developing accurate dynamics models and control policies. We address these challenges by developing a hand-crafted kinematic model for a quadruped-with-arm platform and, together with recent advances in Bayesian Neural Network (BNN)-based dynamics learning using physical priors, efficiently learn an accurate dynamics model from data. We then derive control policies for loco-manipulation via model-based reinforcement learning (RL). We demonstrate the effectiveness of this approach on hardware using the Boston Dynamics Spot with a manipulator, accurately performing dynamic end-effector trajectory tracking even in low data regimes.},
+  selected={false},
+  website={https://sites.google.com/view/learning-more-with-less/}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{cao2024dare,
+  title={DARE: Diffusion Policy for Autonomous Robot Exploration},
+  author={Yuhong Cao and Jeric Lew and Jingsong Liang and Jin Cheng and Guillaume Sartoretti},
+  journal={2025 IEEE International Conference on Robotics and Automation (ICRA 2025)},
+  year={2024},
+  arxiv={2410.16687},
+  preview={dare.png},
+  abstract={Autonomous robot exploration requires a robot to efficiently explore and map unknown environments. Compared to conventional methods that can only optimize paths based on the current robot belief, learning-based methods show the potential to achieve improved performance by drawing on past experiences to reason about unknown areas. In this paper, we propose DARE, a novel generative approach that leverages diffusion models trained on expert demonstrations, which can explicitly generate an exploration path through one-time inference. We build DARE upon an attention-based encoder and a diffusion policy model, and introduce ground truth optimal demonstrations for training to learn better patterns for exploration. The trained planner can reason about the partial belief to recognize the potential structure in unknown areas and consider these areas during path planning. Our experiments demonstrate that DARE achieves on-par performance with both conventional and learning-based state-of-the-art exploration planners, as well as good generalizability in both simulations and real-life scenarios.},
+  selected={true},
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@article{yoon2024spatio,
+  title={Spatio-Temporal Motion Retargeting for Quadruped Robots},
+  author={Taerim Yoon and Dongho Kang and Seungmin Kim and Minsung Ahn and Jin Cheng and Stelian Coros and Sungjoon Choi},
+  journal={In submission},
+  year={2025},
+  arxiv={2404.11557},
+  preview={stmr.png},
+  abstract={This work introduces a motion retargeting approach for legged robots, which aims to create motion controllers that imitate the fine behavior of animals. Our approach, namely spatio-temporal motion retargeting (STMR), guides imitation learning procedures by transferring motion from source to target, effectively bridging the morphological disparities by ensuring the feasibility of imitation on the target system. Our STMR method comprises two components: spatial motion retargeting (SMR) and temporal motion retargeting (TMR). On the one hand, SMR tackles motion retargeting at the kinematic level by generating kinematically feasible whole-body motions from keypoint trajectories. On the other hand, TMR aims to retarget motion at the dynamic level by optimizing motion in the temporal domain. We showcase the effectiveness of our method in facilitating Imitation Learning (IL) for complex animal movements through a series of simulation and hardware experiments. In these experiments, our STMR method successfully tailored complex animal motions from various media, including video captured by a hand-held camera, to fit the morphology and physical properties of the target robots. This enabled RL policy training for precise motion tracking, while baseline methods struggled with highly dynamic motion involving flying phases. Moreover, we validated that the control policy can successfully imitate six different motions in two quadruped robots with different dimensions and physical properties in real-world settings.},  selected={false},
+  selected={false},
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{digiuro2024metareinforcementlearninguniversalquadrupedal,
+  title={MetaLoco: Universal Quadrupedal Locomotion with Meta-Reinforcement Learning and Motion Imitation},
+  author={Fatemeh Zargarbashi and Fabrizio Di Giuro and Jin Cheng and Dongho Kang and Bhavya Sukhija and Stelian Coros},
+  journal={In archive},
+  year={2024},
+  arxiv={2407.17502},
+  video={https://youtu.be/PaFRUDOrh_U?si=9FWGPDevhE2YlIdY},
+  preview={universalloco.png},
+  abstract={This work presents a meta-reinforcement learning approach to develop a universal locomotion control policy capable of zero-shot generalization across diverse quadrupedal platforms. The proposed method trains an RL agent equipped with a memory unit to imitate reference motions using a small set of procedurally generated quadruped robots. Through comprehensive simulation and real-world hardware experiments, we demonstrate the efficacy of our approach in achieving locomotion across various robots without requiring robot-specific fine-tuning. Furthermore, we highlight the critical role of the memory unit in enabling generalization, facilitating rapid adaptation to changes in the robot properties, and improving sample efficiency.},
+  selected={false},
+}
+
+@article{fzargarbashi2024robotkeyframing,
+  title={RobotKeyframing: Learning Locomotion with High-Level Objectives via Mixture of Dense and Sparse Rewards},
+  author={Fatemeh Zargarbashi and Jin Cheng and Dongho Kang and Robert Sumner and Stelian Coros},
+  journal={2024 Conference on Robot Learning (CoRL 2024)},
+  year={2024},
+  arxiv={2407.11562},
+  preview={robotkeyframing.png},
+  abstract={This paper presents a novel learning-based control framework that uses keyframing to incorporate high-level objectives in natural locomotion for legged robots. These high-level objectives are specified as a variable number of partial or complete pose targets that are spaced arbitrarily in time. Our proposed framework utilizes a multi-critic reinforcement learning algorithm to effectively handle the mixture of dense and sparse rewards. Additionally, it employs a transformer-based encoder to accommodate a variable number of input targets, each associated with specific time-to-arrivals. Throughout simulation and hardware experiments, we demonstrate that our framework can effectively satisfy the target keyframe sequence at the required times. In the experiments, the multi-critic method significantly reduces the effort of hyperparameter tuning compared to the standard single-critic alternative. Moreover, the proposed transformer-based architecture enables robots to anticipate future goals, which results in quantitative improvements in their ability to reach their targets.},
+  selected={true},
+  video={https://youtu.be/YpOABpwdxko?si=zzSUEVTdQ3FATnhW},
+  website={https://sites.google.com/view/robot-keyframing},
+  html={https://studios.disneyresearch.com/2024/11/04/robotkeyframing-learning-locomotion-with-high-level-objectives/}
+}
+
+@article{vlastelica2023diverse,
+  title={Offline Diversity Maximization Under Imitation Constraints},
+  author={Marin Vlastelica and Jin Cheng and Georg Martius and Pavel Kolev},
+  journal={2024 Reinforcement Learning Conference (RLC 2024)},
+  year={2024},
+  arxiv={2307.11373},
+  preview={doi3.gif},
+  abstract={There has been significant recent progress in the area of unsupervised skill discovery, utilizing various information-theoretic objectives as measures of diversity. Despite these advances, challenges remain: current methods require significant online interaction, fail to leverage vast amounts of available task-agnostic data and typically lack a quantitative measure of skill utility. We address these challenges by proposing a principled offline algorithm for unsupervised skill discovery that, in addition to maximizing diversity, ensures that each learned skill imitates state-only expert demonstrations to a certain degree. Our main analytical contribution is to connect Fenchel duality, reinforcement learning, and unsupervised skill discovery to maximize a mutual information objective subject to KL-divergence state occupancy constraints. Furthermore, we demonstrate the effectiveness of our method on the standard offline benchmark D4RL and on a custom offline dataset collected from a 12-DoF quadruped robot for which the policies trained in simulation transfer well to the real robotic system.},
+  selected={true},
+  website={https://sites.google.com/view/diversity-via-duality/},
+  html={https://rlj.cs.umass.edu/2024/papers/Paper169.html}
+}
+
+@article{cheng2023learning,
+  title={Learning Diverse Skills for Local Navigation under Multi-constraint Optimality},
+  author={Jin Cheng and Marin Vlastelica and Pavel Kolev and Chenhao Li and Georg Martius},
+  journal={2024 IEEE International Conference on Robotics and Automation (ICRA 2024)},
+  year={2024},
+  arxiv={2310.02440},
+  video={https://youtube.com/playlist?list=PLUPeAQ-E3nrVdeZ4ZZYy0kQNX3pb4szJL&si=Su91ojeOn3etjcuG},
+  preview={dominic.png},
+  abstract={Despite many successful applications of data-driven control in robotics, extracting meaningful diverse behaviors remains a challenge. Typically, task performance needs to be compromised in order to achieve diversity. In many scenarios, task requirements are specified as a multitude of reward terms, each requiring a different trade-off. In this work, we take a constrained optimization viewpoint on the quality-diversity trade-off and show that we can obtain diverse policies while imposing constraints on their value functions which are defined through distinct rewards. In line with previous work, further control of the diversity level can be achieved through an attract-repel reward term motivated by the Van der Waals force. We demonstrate the effectiveness of our method on a local navigation task where a quadruped robot needs to reach the target within a finite horizon. Finally, our trained policies transfer well to the real 12-DoF quadruped robot, Solo12, and exhibit diverse agile behaviors with successful obstacle traversal.},
+  selected={true},
+  website={https://sites.google.com/view/icra2024-dominic},
+  html={https://ieeexplore.ieee.org/document/10611629}
+}
+
+
+@article{kang2023rl+,
+  title={RL+ Model-based Control: Using On-demand Optimal Control to Learn Versatile Legged Locomotion},
+  author={Kang, Dongho and Cheng, Jin and Zamora, Miguel and Zargarbashi, Fatemeh and Coros, Stelian},
+  journal={IEEE Robotics and Automation Letters (RA-L)},
+  year={2023},
+  arxiv={2305.17842},
+  html={https://ieeexplore.ieee.org/document/10225268},
+  video={https://youtu.be/gXDP87yVq4o},
+  preview={rl+.png},
+  abstract={This letter presents a versatile control method for dynamic and robust legged locomotion that integrates model-based optimal control with reinforcement learning (RL). Our approach involves training an RL policy to imitate reference motions generated on-demand through solving a finite-horizon optimal control problem. This integration enables the policy to leverage human expertise in generating motions to imitate while also allowing it to generalize to more complex scenarios that require a more complex dynamics model. Our method successfully learns control policies capable of generating diverse quadrupedal gait patterns and maintaining stability against unexpected external perturbations in both simulation and hardware experiments. Furthermore, we demonstrate the adaptability of our method to more complex locomotion tasks on uneven terrain without the need for excessive reward shaping or hyperparameter tuning.},
+  selected={true},
+  website={https://donghok.me/rl-plus-model-based-control/}
+}
+
+@article{cheng2022haptic,
+  title={Haptic Teleoperation of High-dimensional Robotic Systems Using a Feedback MPC Framework},
+  author={Cheng, Jin and Abi-Farraj, Firas and Farshidian, Farbod and Hutter, Marco},
+  journal={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022)},
+  year={2022},
+  arxiv={2207.14635},
+  video={https://youtu.be/OiprDWv0OcE},
+  html={https://ieeexplore.ieee.org/abstract/document/9981290},
+  preview={haptic_teleoperation.png},
+  abstract={Model Predictive Control (MPC) schemes have proven their efficiency in controlling high degree-of-freedom (DoF) complex robotic systems. However, they come at a high computational cost and an update rate of about tens of hertz. This relatively slow update rate hinders the possibility of stable haptic teleoperation of such systems since the slow feedback loops can cause instabilities and loss of transparency to the operator. This work presents a novel framework for transparent teleoperation of MPC-controlled complex robotic systems. In particular, we employ a feedback MPC approach [1] and exploit its structure to account for the operator input at a fast rate which is independent of the update rate of the MPC loop itself. We demonstrate our framework on a mobile manipulator platform and show that it significantly improves haptic teleoperation's transparency and stability. We also highlight that the proposed feedback structure is constraint satisfactory and does not violate any constraints defined in the optimal control problem. To the best of our knowledge, this work is the first realization of the bilateral teleoperation of a legged manipulator using a whole-body MPC framework.},
+  selected={true}
 }

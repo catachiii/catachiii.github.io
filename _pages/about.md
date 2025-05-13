@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <img src="../assets/img/chinese_name.png" alt="jin_cheng" width="80"/>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: jincheng.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +19,28 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello there!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm a doctoral student in Computer Science at <img src="../assets/img/eth_short.png" alt="eth" height="20"/> [ETH Zürich](https://ethz.ch/en.html), Switzerland 🇨🇭, affiliated with <img src="../assets/img/crl.png" alt="crl" width="15"/> [Computational Robotics Lab](http://crl.ethz.ch/), advised by <img src="../assets/img/eth_short.png" alt="eth" height="20"/> [Prof. Stelian Coros](http://crl.ethz.ch/people/coros/index.html) and <img src="../assets/img/cmu-lettermark-r.png" alt="cmu" height="10"/> [Prof. Guanya Shi](https://www.gshi.me/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to this, I received my master's degree in mechanical engineering at <img src="../assets/img/eth_short.png" alt="eth" height="20"/> [ETH Zürich](https://ethz.ch/en.html) and my bachelor's degree in vehicle engineering at <img src="../assets/img/thu_short.png" alt="eth" height="15"/> [Tsinghua University](https://www.tsinghua.edu.cn/en/).
+
+#### - research
+
+My research interest lies in empowering mobile robots with the ability of locomotion and manipulation through reinforcement learning. I mainly focus on legged systems such as quadrupeds 🐕🐈, humanoids 🏃🏻💃🏻.
+
+#### - misc.
+
+Other than professional bios, I am from [Chongqing](https://goo.gl/maps/dJPha9VP7CFDoNqg7), southwest of China.
+I am extremely fond of [Chongqing hot pot](https://en.wikipedia.org/wiki/Chongqing_hot_pot).
+
+Besides, I love to read and spend a lot of time with books, especially in modern and contemporary literature (check my [reading list](https://jin-cheng.me/reading/)).
+My favorite authors are [Haruki Murakami](https://en.wikipedia.org/wiki/Haruki_Murakami), [Natsume Soseki](https://en.wikipedia.org/wiki/Natsume_S%C5%8Dseki), [Albert Camus](https://en.wikipedia.org/wiki/Albert_Camus) and [Gabriel García Márquez](https://en.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez).
+
+I also enjoy photography 📷, video games 🎮, and movies 🍿. In my free time, I like making latte macchiatos ☕️, playing tennis 🎾, and snowboarding 🏂.
+
