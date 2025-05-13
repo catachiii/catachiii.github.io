@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://catachiii.github.io/sitemap.xml
+Sitemap: https://jin-cheng.me/sitemap.xml
