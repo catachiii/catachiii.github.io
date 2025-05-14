@@ -37,374 +37,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/typograms/";
-          
-        },
-      },{id: "post-a-post-that-can-be-cited",
-        
-          title: "a post that can be cited",
-        
-        description: "this is what a post that can be cited looks like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
-      },{id: "post-a-post-with-disqus-comments",
-        
-          title: "a post with disqus comments",
-        
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/math/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
-          
-        },
-      },{id: "books-the-godfather",
+        },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/the_godfather.html";
             },},{id: "news-i-started-my-bachelor-in-vehicle-engineering-at-department-of-automotive-engineering-tsinghua-university-beijing-china",
           title: '🏫 I started my bachelor in vehicle engineering at Department of Automotive Engineering,...',
           description: "",
@@ -502,177 +139,177 @@ ninja.data = [{
           title: 'Adam',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/adam/";
+              window.location.href = "/projects/adam.html";
             },},{id: "projects-alan-wake",
           title: 'Alan Wake',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/alanwake/";
+              window.location.href = "/projects/alanwake.html";
             },},{id: "projects-alan-wake-2",
           title: 'Alan Wake 2',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/alanwake2/";
+              window.location.href = "/projects/alanwake2.html";
             },},{id: "projects-alma",
           title: 'ALMA',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/alma/";
+              window.location.href = "/projects/alma.html";
             },},{id: "projects-anymal",
           title: 'ANYmal',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/anymal/";
+              window.location.href = "/projects/anymal.html";
             },},{id: "projects-unitree-b2",
           title: 'Unitree B2',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/b2/";
+              window.location.href = "/projects/b2.html";
             },},{id: "projects-beijing",
           title: 'Beijing 🇨🇳',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/beijing/";
+              window.location.href = "/projects/beijing.html";
             },},{id: "projects-black-myth-wukong",
           title: 'Black Myth Wukong',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/bmw/";
+              window.location.href = "/projects/bmw.html";
             },},{id: "projects-chengdu",
           title: 'Chengdu 🇨🇳',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/chengdu/";
+              window.location.href = "/projects/chengdu.html";
             },},{id: "projects-chongqing",
           title: 'Chongqing 🇨🇳',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/chongqing/";
+              window.location.href = "/projects/chongqing.html";
             },},{id: "projects-control",
           title: 'Control',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/control/";
+              window.location.href = "/projects/control.html";
             },},{id: "projects-cyberpunk-2077",
           title: 'Cyberpunk 2077',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/cyberpunk2077/";
+              window.location.href = "/projects/cyberpunk2077.html";
             },},{id: "projects-death-stranding",
           title: 'Death Stranding',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/deathstranding/";
+              window.location.href = "/projects/deathstranding.html";
             },},{id: "projects-elden-ring",
           title: 'Elden Ring',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/eldenring/";
+              window.location.href = "/projects/eldenring.html";
             },},{id: "projects-final-fantasy-vii",
           title: 'Final Fantasy VII',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/ff7remake/";
+              window.location.href = "/projects/ff7remake.html";
             },},{id: "projects-germany",
           title: 'Germany 🇩🇪',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/germany/";
+              window.location.href = "/projects/germany.html";
             },},{id: "projects-unitree-go1",
           title: 'Unitree Go1',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/go1/";
+              window.location.href = "/projects/go1.html";
             },},{id: "projects-unitree-go2",
           title: 'Unitree Go2',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/go2/";
+              window.location.href = "/projects/go2.html";
             },},{id: "projects-god-of-war",
           title: 'God of War',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/gow4/";
+              window.location.href = "/projects/gow4.html";
             },},{id: "projects-horizon",
           title: 'Horizon',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/horizonzd/";
+              window.location.href = "/projects/horizonzd.html";
             },},{id: "projects-japan",
           title: 'Japan 🇯🇵',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/japan/";
+              window.location.href = "/projects/japan.html";
             },},{id: "projects-japan2",
           title: 'Japan2 🇯🇵',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/japan2/";
+              window.location.href = "/projects/japan2.html";
             },},{id: "projects-lijiang",
           title: 'Lijiang 🇨🇳',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/lijiang/";
+              window.location.href = "/projects/lijiang.html";
             },},{id: "projects-milan",
           title: 'Milan 🇮🇹',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/milan/";
+              window.location.href = "/projects/milan.html";
             },},{id: "projects-nier-automata",
           title: 'Nier Automata',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/nierautomata/";
+              window.location.href = "/projects/nierautomata.html";
             },},{id: "projects-nier-replicant",
           title: 'Nier Replicant',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/nierreplicant/";
+              window.location.href = "/projects/nierreplicant.html";
             },},{id: "projects-random",
           title: 'Random 🔀',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/random/";
+              window.location.href = "/projects/random.html";
             },},{id: "projects-sekiro-shadows-die-twice",
           title: 'Sekiro Shadows Die Twice',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/sekiro/";
+              window.location.href = "/projects/sekiro.html";
             },},{id: "projects-supermegabot",
           title: 'SuperMegaBot',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/smb/";
+              window.location.href = "/projects/smb.html";
             },},{id: "projects-solo12",
           title: 'SOLO12',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/solo12/";
+              window.location.href = "/projects/solo12.html";
             },},{id: "projects-spot",
           title: 'Spot',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/spot/";
+              window.location.href = "/projects/spot.html";
             },},{id: "projects-switzerland",
           title: 'Switzerland 🇨🇭',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/switzerland/";
+              window.location.href = "/projects/switzerland.html";
             },},{id: "projects-turkey",
           title: 'Turkey 🇹🇷',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/turkey/";
+              window.location.href = "/projects/turkey.html";
             },},{id: "projects-the-legend-of-zelda",
           title: 'The Legend of Zelda',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/zelda/";
+              window.location.href = "/projects/zelda.html";
             },},{id: "projects-zürich",
           title: 'Zürich 🇨🇭',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/zurich/";
+              window.location.href = "/projects/zurich.html";
             },},{
         id: 'social-email',
         title: 'email',
