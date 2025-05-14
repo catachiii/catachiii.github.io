@@ -4,5 +4,6 @@ title: Alan Wake
 img: assets/img/games/alanwake.png
 importance: 1
 category: games
-redirect: https://www.remedygames.com/games/alan-wake
 ---
+
+website: [https://www.remedygames.com/games/alan-wake](https://www.remedygames.com/games/alan-wake)

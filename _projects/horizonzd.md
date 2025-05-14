@@ -4,5 +4,6 @@ title: Horizon
 img: assets/img/games/horizonzd.png
 importance: 1
 category: games
-redirect: https://www.playstation.com/en-us/horizon/
 ---
+
+website: [https://www.playstation.com/en-us/horizon/](https://www.playstation.com/en-us/horizon/)

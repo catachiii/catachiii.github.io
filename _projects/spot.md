@@ -4,5 +4,6 @@ title: Spot
 img: assets/img/robots/spot.png
 importance: 1
 category: robots
-redirect: https://bostondynamics.com/products/spot/
 ---
+
+website: [https://bostondynamics.com/products/spot/](https://bostondynamics.com/products/spot/)
