@@ -210,6 +210,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ff7remake.html";
+            },},{id: "projects-unitree-g1",
+          title: 'Unitree G1',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/g1.html";
             },},{id: "projects-germany",
           title: 'Germany 🇩🇪',
           description: "",
