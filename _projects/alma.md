@@ -2,7 +2,7 @@
 layout: page
 title: ALMA
 img: assets/img/robots/alma.png
-importance: 1
+importance: 2
 category: robots
 ---
 

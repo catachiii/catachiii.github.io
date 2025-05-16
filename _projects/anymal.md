@@ -2,7 +2,7 @@
 layout: page
 title: ANYmal
 img: assets/img/robots/anymald.jpg
-importance: 1
+importance: 2
 category: robots
 ---
 
