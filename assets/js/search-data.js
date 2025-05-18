@@ -37,12 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather.html";
-            },},{id: "news-i-started-my-bachelor-in-vehicle-engineering-at-department-of-automotive-engineering-tsinghua-university-beijing-china",
+        },{id: "news-i-started-my-bachelor-in-vehicle-engineering-at-department-of-automotive-engineering-tsinghua-university-beijing-china",
           title: '🏫 I started my bachelor in vehicle engineering at Department of Automotive Engineering,...',
           description: "",
           section: "News",},{id: "news-i-was-awarded-integrated-excellence-scholarship-from-tsinghua-university",
