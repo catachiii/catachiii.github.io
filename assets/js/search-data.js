@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-gallery",
           title: "gallery",
-          description: "A growing collection of robots I have worked with, games that have influenced my life and some photos I have taken.",
+          description: "A growing collection of robots I have worked.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/gallery/";
@@ -135,16 +135,6 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/adam.html";
-            },},{id: "projects-alan-wake",
-          title: 'Alan Wake',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/alanwake.html";
-            },},{id: "projects-alan-wake-2",
-          title: 'Alan Wake 2',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/alanwake2.html";
             },},{id: "projects-alma",
           title: 'ALMA',
           description: "",
@@ -160,61 +150,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/b2.html";
-            },},{id: "projects-beijing",
-          title: 'Beijing 🇨🇳',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/beijing.html";
-            },},{id: "projects-black-myth-wukong",
-          title: 'Black Myth Wukong',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/bmw.html";
-            },},{id: "projects-chengdu",
-          title: 'Chengdu 🇨🇳',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/chengdu.html";
-            },},{id: "projects-chongqing",
-          title: 'Chongqing 🇨🇳',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/chongqing.html";
-            },},{id: "projects-control",
-          title: 'Control',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/control.html";
-            },},{id: "projects-cyberpunk-2077",
-          title: 'Cyberpunk 2077',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/cyberpunk2077.html";
-            },},{id: "projects-death-stranding",
-          title: 'Death Stranding',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/deathstranding.html";
-            },},{id: "projects-elden-ring",
-          title: 'Elden Ring',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/eldenring.html";
-            },},{id: "projects-final-fantasy-vii",
-          title: 'Final Fantasy VII',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/ff7remake.html";
             },},{id: "projects-unitree-g1",
           title: 'Unitree G1',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/g1.html";
-            },},{id: "projects-germany",
-          title: 'Germany 🇩🇪',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/germany.html";
             },},{id: "projects-unitree-go1",
           title: 'Unitree Go1',
           description: "",
@@ -225,56 +165,6 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/go2.html";
-            },},{id: "projects-god-of-war",
-          title: 'God of War',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/gow4.html";
-            },},{id: "projects-horizon",
-          title: 'Horizon',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/horizonzd.html";
-            },},{id: "projects-japan",
-          title: 'Japan 🇯🇵',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/japan.html";
-            },},{id: "projects-japan2",
-          title: 'Japan2 🇯🇵',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/japan2.html";
-            },},{id: "projects-lijiang",
-          title: 'Lijiang 🇨🇳',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/lijiang.html";
-            },},{id: "projects-milan",
-          title: 'Milan 🇮🇹',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/milan.html";
-            },},{id: "projects-nier-automata",
-          title: 'Nier Automata',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/nierautomata.html";
-            },},{id: "projects-nier-replicant",
-          title: 'Nier Replicant',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/nierreplicant.html";
-            },},{id: "projects-random",
-          title: 'Random 🔀',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/random.html";
-            },},{id: "projects-sekiro-shadows-die-twice",
-          title: 'Sekiro Shadows Die Twice',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/sekiro.html";
             },},{id: "projects-supermegabot",
           title: 'SuperMegaBot',
           description: "",
@@ -290,26 +180,6 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/spot.html";
-            },},{id: "projects-switzerland",
-          title: 'Switzerland 🇨🇭',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/switzerland.html";
-            },},{id: "projects-turkey",
-          title: 'Turkey 🇹🇷',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/turkey.html";
-            },},{id: "projects-the-legend-of-zelda",
-          title: 'The Legend of Zelda',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/zelda.html";
-            },},{id: "projects-zürich",
-          title: 'Zürich 🇨🇭',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/zurich.html";
             },},{
         id: 'social-email',
         title: 'email',
