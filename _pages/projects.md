@@ -2,10 +2,10 @@
 layout: page
 title: gallery
 permalink: /gallery/
-description: A growing collection of robots I have worked with, games that have influenced my life and some photos I have taken.
+description: A growing collection of robots I have worked.
 nav: true
 nav_order: 2
-display_categories: [robots, games, photography]
+display_categories: [robots]
 horizontal: false
 ---
 
