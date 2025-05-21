@@ -134,52 +134,52 @@ ninja.data = [{
           title: 'Adam',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/adam.html";
+              window.location.href = "/projects/adam/";
             },},{id: "projects-alma",
           title: 'ALMA',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/alma.html";
+              window.location.href = "/projects/alma/";
             },},{id: "projects-anymal",
           title: 'ANYmal',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/anymal.html";
+              window.location.href = "/projects/anymal/";
             },},{id: "projects-unitree-b2",
           title: 'Unitree B2',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/b2.html";
+              window.location.href = "/projects/b2/";
             },},{id: "projects-unitree-g1",
           title: 'Unitree G1',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/g1.html";
+              window.location.href = "/projects/g1/";
             },},{id: "projects-unitree-go1",
           title: 'Unitree Go1',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/go1.html";
+              window.location.href = "/projects/go1/";
             },},{id: "projects-unitree-go2",
           title: 'Unitree Go2',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/go2.html";
+              window.location.href = "/projects/go2/";
             },},{id: "projects-supermegabot",
           title: 'SuperMegaBot',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/smb.html";
+              window.location.href = "/projects/smb/";
             },},{id: "projects-solo12",
           title: 'SOLO12',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/solo12.html";
+              window.location.href = "/projects/solo12/";
             },},{id: "projects-spot",
           title: 'Spot',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/spot.html";
+              window.location.href = "/projects/spot/";
             },},{
         id: 'social-email',
         title: 'email',
