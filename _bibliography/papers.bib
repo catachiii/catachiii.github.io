@@ -1,5 +1,17 @@
 ---
 ---
+@article{kang2025steerable,
+  title={Learning Steerable Imitation Controllers from Unstructured Animal Motions},
+  author={Dongho Kang and Jin Cheng and Fatemeh Zargarbashi and Taerim Yoon and Sungjoon Choi and Stelian Coros},
+  journal={In submission},
+  year={2025},
+  arxiv={2507.00677},
+  preview={steerable.png},
+  abstract={This paper presents a control framework for legged robots that leverages unstructured real-world animal motion data to generate animal-like and user-steerable behaviors. Our framework learns to follow velocity commands while reproducing the diverse gait patterns in the original dataset. To begin with, animal motion data is transformed into a robot-compatible database using constrained inverse kinematics and model predictive control, bridging the morphological and physical gap between the animal and the robot. Subsequently, a variational autoencoder-based motion synthesis module captures the diverse locomotion patterns in the motion database and generates smooth transitions between them in response to velocity commands. The resulting kinematic motions serve as references for a reinforcement learning-based feedback controller deployed on physical robots. We show that this approach enables a quadruped robot to adaptively switch gaits and accurately track user velocity commands while maintaining the stylistic coherence of the motion data. Additionally, we provide component-wise evaluations to analyze the system's behavior in depth and demonstrate the efficacy of our method for more accurate and reliable motion imitation.},
+  selected={false},
+  video={https://youtu.be/DukyUGNYf5A},
+}
+
 @article{cheng2025rambo,
   title={RAMBO: RL-augmented Model-based Whole-body Control for Loco-manipulation},
   author={Jin Cheng and Dongho Kang and Gabriele Fadini and Guanya Shi and Stelian Coros},
@@ -9,7 +21,8 @@
   preview={rambo.png},
   abstract={Loco-manipulation, physical interaction of various objects that is concurrently coordinated with locomotion, remains a major challenge for legged robots due to the need for both precise end-effector control and robustness to unmodeled dynamics. While model-based controllers provide precise planning via online optimization, they are limited by model inaccuracies. In contrast, learning-based methods offer robustness, but they struggle with precise modulation of interaction forces. We introduce RAMBO, a hybrid framework that integrates model-based whole-body control within a feedback policy trained with reinforcement learning. The model-based module generates feedforward torques by solving a quadratic program, while the policy provides feedback corrective terms to enhance robustness. We validate our framework on a quadruped robot across a diverse set of real-world loco-manipulation tasks, such as pushing a shopping cart, balancing a plate, and holding soft objects, in both quadrupedal and bipedal walking. Our experiments demonstrate that RAMBO enables precise manipulation capabilities while achieving robust and dynamic locomotion.},
   selected={false},
-  website={https://jin-cheng.me/rambo.github.io/}
+  website={https://jin-cheng.me/rambo.github.io/},
+  video={https://youtu.be/RHqMhl10Vo0?si=QYTbsAbk8vrfDpnI}
 }
 
 @article{li2025sata,
@@ -54,7 +67,7 @@
   arxiv={2410.16687},
   preview={dare.png},
   abstract={Autonomous robot exploration requires a robot to efficiently explore and map unknown environments. Compared to conventional methods that can only optimize paths based on the current robot belief, learning-based methods show the potential to achieve improved performance by drawing on past experiences to reason about unknown areas. In this paper, we propose DARE, a novel generative approach that leverages diffusion models trained on expert demonstrations, which can explicitly generate an exploration path through one-time inference. We build DARE upon an attention-based encoder and a diffusion policy model, and introduce ground truth optimal demonstrations for training to learn better patterns for exploration. The trained planner can reason about the partial belief to recognize the potential structure in unknown areas and consider these areas during path planning. Our experiments demonstrate that DARE achieves on-par performance with both conventional and learning-based state-of-the-art exploration planners, as well as good generalizability in both simulations and real-life scenarios.},
-  selected={true},
+  selected={false},
 }
 
 @article{yoon2024spatio,
