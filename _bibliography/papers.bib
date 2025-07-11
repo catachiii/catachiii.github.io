@@ -25,6 +25,17 @@
   video={https://youtu.be/RHqMhl10Vo0?si=QYTbsAbk8vrfDpnI}
 }
 
+@article{yoon2024spatio,
+  title={Spatio-Temporal Motion Retargeting for Quadruped Robots},
+  author={Taerim Yoon and Dongho Kang and Seungmin Kim and Minsung Ahn and Jin Cheng and Stelian Coros and Sungjoon Choi},
+  journal={IEEE Transactions on Robotics (T-RO)},
+  year={2025},
+  arxiv={2404.11557},
+  preview={stmr.png},
+  abstract={This work introduces a motion retargeting approach for legged robots, which aims to create motion controllers that imitate the fine behavior of animals. Our approach, namely spatio-temporal motion retargeting (STMR), guides imitation learning procedures by transferring motion from source to target, effectively bridging the morphological disparities by ensuring the feasibility of imitation on the target system. Our STMR method comprises two components: spatial motion retargeting (SMR) and temporal motion retargeting (TMR). On the one hand, SMR tackles motion retargeting at the kinematic level by generating kinematically feasible whole-body motions from keypoint trajectories. On the other hand, TMR aims to retarget motion at the dynamic level by optimizing motion in the temporal domain. We showcase the effectiveness of our method in facilitating Imitation Learning (IL) for complex animal movements through a series of simulation and hardware experiments. In these experiments, our STMR method successfully tailored complex animal motions from various media, including video captured by a hand-held camera, to fit the morphology and physical properties of the target robots. This enabled RL policy training for precise motion tracking, while baseline methods struggled with highly dynamic motion involving flying phases. Moreover, we validated that the control policy can successfully imitate six different motions in two quadruped robots with different dimensions and physical properties in real-world settings.},
+  selected={true},
+}
+
 @article{li2025sata,
   title={SATA: Safe and Adaptive Torque-Based Locomotion Policies Inspired by Animal Learning},
   author={Peizhuo Li and Hongyi Li and Ge Sun and Jin Cheng and Xinrong Yang and Guillaume Bellegarda and Milad Shafiee and Yuhong Cao and Auke Ijspeert and Guillaume Sartoretti},
@@ -67,17 +78,6 @@
   arxiv={2410.16687},
   preview={dare.png},
   abstract={Autonomous robot exploration requires a robot to efficiently explore and map unknown environments. Compared to conventional methods that can only optimize paths based on the current robot belief, learning-based methods show the potential to achieve improved performance by drawing on past experiences to reason about unknown areas. In this paper, we propose DARE, a novel generative approach that leverages diffusion models trained on expert demonstrations, which can explicitly generate an exploration path through one-time inference. We build DARE upon an attention-based encoder and a diffusion policy model, and introduce ground truth optimal demonstrations for training to learn better patterns for exploration. The trained planner can reason about the partial belief to recognize the potential structure in unknown areas and consider these areas during path planning. Our experiments demonstrate that DARE achieves on-par performance with both conventional and learning-based state-of-the-art exploration planners, as well as good generalizability in both simulations and real-life scenarios.},
-  selected={false},
-}
-
-@article{yoon2024spatio,
-  title={Spatio-Temporal Motion Retargeting for Quadruped Robots},
-  author={Taerim Yoon and Dongho Kang and Seungmin Kim and Minsung Ahn and Jin Cheng and Stelian Coros and Sungjoon Choi},
-  journal={In submission},
-  year={2025},
-  arxiv={2404.11557},
-  preview={stmr.png},
-  abstract={This work introduces a motion retargeting approach for legged robots, which aims to create motion controllers that imitate the fine behavior of animals. Our approach, namely spatio-temporal motion retargeting (STMR), guides imitation learning procedures by transferring motion from source to target, effectively bridging the morphological disparities by ensuring the feasibility of imitation on the target system. Our STMR method comprises two components: spatial motion retargeting (SMR) and temporal motion retargeting (TMR). On the one hand, SMR tackles motion retargeting at the kinematic level by generating kinematically feasible whole-body motions from keypoint trajectories. On the other hand, TMR aims to retarget motion at the dynamic level by optimizing motion in the temporal domain. We showcase the effectiveness of our method in facilitating Imitation Learning (IL) for complex animal movements through a series of simulation and hardware experiments. In these experiments, our STMR method successfully tailored complex animal motions from various media, including video captured by a hand-held camera, to fit the morphology and physical properties of the target robots. This enabled RL policy training for precise motion tracking, while baseline methods struggled with highly dynamic motion involving flying phases. Moreover, we validated that the control policy can successfully imitate six different motions in two quadruped robots with different dimensions and physical properties in real-world settings.},  selected={false},
   selected={false},
 }
 
