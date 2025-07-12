@@ -1,10 +1,10 @@
-<div class="news">
+<div class="news" style="margin-bottom: 2rem;">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
     <div
       class="table-responsive"
       {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 20vw"
+        style="max-height: 40vh"
       {% endif %}
     >
       <table class="table table-sm table-borderless">
