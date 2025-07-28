@@ -37,5 +37,5 @@ I am extremely fond of [Chongqing hot pot](https://en.wikipedia.org/wiki/Chongqi
 Besides, I love to read and spend a lot of time with books, especially in modern and contemporary literature.
 My favorite authors are [Haruki Murakami](https://en.wikipedia.org/wiki/Haruki_Murakami), [Natsume Soseki](https://en.wikipedia.org/wiki/Natsume_S%C5%8Dseki), [Albert Camus](https://en.wikipedia.org/wiki/Albert_Camus) and [Gabriel García Márquez](https://en.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez).
 
-I also enjoy photography 📷, video games 🎮, and movies 🍿. In my free time, I like making latte arts ☕️, playing tennis 🎾, and snowboarding 🏂.
+I also enjoy photography 📷, video games 🎮, and movies 🍿. In my free time, I make latte arts ☕️, play tennis 🎾, and snowboard 🏂.
 
