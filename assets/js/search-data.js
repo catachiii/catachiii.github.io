@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-gallery",
-          title: "gallery",
-          description: "A growing collection of robots I have worked.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/gallery/";
-          },
         },{id: "nav-reading",
           title: "reading",
           description: "A collection of books I have read.",
@@ -136,57 +129,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-am-delighted-to-share-my-recent-work-from-computational-robotics-lab-rambo-rl-augmented-model-based-whole-body-control-for-loco-manipulation-has-been-accepted-for-publication-to-the-ieee-robotics-and-automation-letters-ra-l-journal-please-check-our-website-for-more-details",
           title: '📑 I am delighted to share my recent work from Computational Robotics Lab,...',
           description: "",
-          section: "News",},{id: "projects-adam",
-          title: 'Adam',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/adam/";
-            },},{id: "projects-alma",
-          title: 'ALMA',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/alma/";
-            },},{id: "projects-anymal",
-          title: 'ANYmal',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/anymal/";
-            },},{id: "projects-unitree-b2",
-          title: 'Unitree B2',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/b2/";
-            },},{id: "projects-unitree-g1",
-          title: 'Unitree G1',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/g1/";
-            },},{id: "projects-unitree-go1",
-          title: 'Unitree Go1',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/go1/";
-            },},{id: "projects-unitree-go2",
-          title: 'Unitree Go2',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/go2/";
-            },},{id: "projects-supermegabot",
-          title: 'SuperMegaBot',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/smb/";
-            },},{id: "projects-solo12",
-          title: 'SOLO12',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/solo12/";
-            },},{id: "projects-spot",
-          title: 'Spot',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/spot/";
-            },},{
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
