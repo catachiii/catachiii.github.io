@@ -69,6 +69,31 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Jin Cheng",
+  "alternateName": "程锦",
+  "url": "https://jin-cheng.me/",
+  "image": "https://jin-cheng.me/assets/img/jincheng.jpg",
+  "jobTitle": "PhD Student",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "ETH Zürich"
+  },
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Computational Robotics Lab"
+  },
+  "sameAs": [
+    "https://scholar.google.com/citations?user=jHsJrX8AAAAJ",
+    "https://github.com/catachiii",
+    "https://linkedin.com/in/jin-cheng-886462163/"
+  ]
+}
+</script>
+
 <!-- Dark Mode -->
 <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
 {% if site.enable_darkmode %}
