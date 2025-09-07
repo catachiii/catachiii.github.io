@@ -86,7 +86,19 @@ horizontal: false
 
 川端 康成 / Kawabata Yasunari - 伊豆の踊子
 
+三島 由紀夫 / Mishima Yukio - 永すぎた春
+
+三島 由紀夫 / Mishima Yukio - 潮騒
+
 谷崎 潤一郎 / Tanizaki Junichiro - 人魚の嘆き·魔術師
+
+谷崎 潤一郎 / Tanizaki Junichiro - 中國漫遊
+
+谷崎 潤一郎 / Tanizaki Junichiro - 台所太平記
+
+谷崎 潤一郎 / Tanizaki Junichiro - 卍
+
+谷崎 潤一郎 / Tanizaki Junichiro - 春琴抄
 
 青山 七恵 / Aoyama Nanae - ひとり日和
 
