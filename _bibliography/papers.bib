@@ -1,5 +1,18 @@
 ---
 ---
+@article{sukhija2025tarc,
+  title={TARC: Time-Adaptive Robotic Control},
+  author={Arnav Sukhija and Lenart Treven and Jin Cheng and Florian Dörfler and Stelian Coros and Andreas Krause},
+  journal={In submission},
+  year={2025},
+  arxiv={2510.23176},
+  preview={tarc.png},
+  abstract={Fixed-frequency control in robotics imposes a trade-off between the efficiency of low-frequency control and the robustness of high-frequency control, a limitation not seen in adaptable biological systems. We address this with a reinforcement learning approach in which policies jointly select control actions and their application durations, enabling robots toautonomously modulate their control frequency in response to situational demands. We validate our method with zero-shot sim-to-real experiments on two distinct hardware platforms: a high-speed RC car and a quadrupedal robot. Our method matches or outperforms fixed-frequency baselines in terms of rewards while significantly reducing the control frequency and exhibiting adaptive frequency control under real-world conditions.},
+  selected={false},
+  website={https://arnavsukhija.github.io/projects/tarc/},
+  video={https://youtu.be/w0y6uusnPYc},
+}
+
 @article{kang2025steerable,
   title={Learning Steerable Imitation Controllers from Unstructured Animal Motions},
   author={Dongho Kang and Jin Cheng and Fatemeh Zargarbashi and Taerim Yoon and Sungjoon Choi and Stelian Coros},
@@ -10,6 +23,16 @@
   abstract={This paper presents a control framework for legged robots that leverages unstructured real-world animal motion data to generate animal-like and user-steerable behaviors. Our framework learns to follow velocity commands while reproducing the diverse gait patterns in the original dataset. To begin with, animal motion data is transformed into a robot-compatible database using constrained inverse kinematics and model predictive control, bridging the morphological and physical gap between the animal and the robot. Subsequently, a variational autoencoder-based motion synthesis module captures the diverse locomotion patterns in the motion database and generates smooth transitions between them in response to velocity commands. The resulting kinematic motions serve as references for a reinforcement learning-based feedback controller deployed on physical robots. We show that this approach enables a quadruped robot to adaptively switch gaits and accurately track user velocity commands while maintaining the stylistic coherence of the motion data. Additionally, we provide component-wise evaluations to analyze the system's behavior in depth and demonstrate the efficacy of our method for more accurate and reliable motion imitation.},
   selected={false},
   video={https://youtu.be/DukyUGNYf5A},
+}
+@article{yuan2025caiman,
+  title={CAIMAN: Causal Action Influence Detection for Sample Efficient Loco-manipulation},
+  author={Yuanchen Yuan and Jin Cheng and Núria Armengol Urpí and Stelian Coros},
+  journal={Workshop on Resource-Rational Robot Learning at CoRL 2025, Workshop on Robotics World Modeling at CoRL 2025},
+  year={2025},
+  arxiv={2502.00835},
+  preview={caiman.png},
+  abstract={Enabling legged robots to perform non-prehensile loco-manipulation with large and heavy objects is crucial for enhancing their versatility. However, this is a challenging task, often requiring sophisticated planning strategies or extensive task-specific reward shaping, especially in unstructured scenarios with obstacles. In this work, we present CAIMAN, a novel framework for learning loco-manipulation that relies solely on sparse task rewards. We leverage causal action influence to detect states where the robot is in control over other entities in the environment, and use this measure as an intrinsically motivated objective to enable sample-efficient learning. We employ a hierarchical control strategy, combining a low-level locomotion policy with a high-level policy that prioritizes task-relevant velocity commands. Through simulated and real-world experiments, including object manipulation with obstacles, we demonstrate the framework's superior sample efficiency, adaptability to diverse environments, and successful transfer to hardware without fine-tuning. The proposed approach paves the way for scalable, robust, and autonomous loco-manipulation in real-world applications.},
+  selected={false},
 }
 
 @article{cheng2025rambo,
@@ -52,21 +75,10 @@
   website={https://github.com/marmotlab/SATA},
 }
 
-@article{yuan2025caiman,
-  title={CAIMAN: Causal Action Influence Detection for Sample Efficient Loco-manipulation},
-  author={Yuanchen Yuan and Jin Cheng and Núria Armengol Urpí and Stelian Coros},
-  journal={In submission},
-  year={2025},
-  arxiv={2502.00835},
-  preview={caiman.png},
-  abstract={Enabling legged robots to perform non-prehensile loco-manipulation with large and heavy objects is crucial for enhancing their versatility. However, this is a challenging task, often requiring sophisticated planning strategies or extensive task-specific reward shaping, especially in unstructured scenarios with obstacles. In this work, we present CAIMAN, a novel framework for learning loco-manipulation that relies solely on sparse task rewards. We leverage causal action influence to detect states where the robot is in control over other entities in the environment, and use this measure as an intrinsically motivated objective to enable sample-efficient learning. We employ a hierarchical control strategy, combining a low-level locomotion policy with a high-level policy that prioritizes task-relevant velocity commands. Through simulated and real-world experiments, including object manipulation with obstacles, we demonstrate the framework's superior sample efficiency, adaptability to diverse environments, and successful transfer to hardware without fine-tuning. The proposed approach paves the way for scalable, robust, and autonomous loco-manipulation in real-world applications.},
-  selected={false},
-}
-
 @article{Hoffman2025Learning,
   title={Learning More With Less: Sample Efficient Dynamics Learning and Model-Based RL for Loco-Manipulation},
   author={Benjamin Hoffman and Jin Cheng and Chenhao Li and Stelian Coros},
-  journal={In archive},
+  journal={Workshop on Resource-Rational Robot Learning at CoRL 2025, Workshop on Robotics World Modeling at CoRL 2025},
   year={2025},
   arxiv={2501.10499},
   preview={spotcatching.png},
