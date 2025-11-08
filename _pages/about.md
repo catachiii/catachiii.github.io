@@ -6,7 +6,7 @@ subtitle: <img src="../assets/img/chinese_name.png" alt="jin_cheng" width="80"/>
 
 profile:
   align: right
-  image: jincheng.jpg
+  image: jincheng.png
   image_circular: false # crops the image to make it circular
   more_info: >
 
