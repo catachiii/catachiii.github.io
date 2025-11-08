@@ -146,7 +146,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6A%69%6E-%63%68%65%6E%67@%69%6E%66.%65%74%68%7A.%63%68", "_blank");
+          window.open("mailto:%6A%69%6E.%63%68%65%6E%67@%69%6E%66.%65%74%68%7A.%63%68", "_blank");
         },
       },{
         id: 'social-github',
@@ -168,6 +168,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=jHsJrX8AAAAJ", "_blank");
+        },
+      },{
+        id: 'social-wechat_qr',
+        title: 'Wechat_qr',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },{
         id: 'social-x',
