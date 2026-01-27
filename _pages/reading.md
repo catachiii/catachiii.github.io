@@ -90,6 +90,8 @@ horizontal: false
 
 三島 由紀夫 / Mishima Yukio - 潮騒
 
+三島 由紀夫 / Mishima Yukio - 真夏の死
+
 谷崎 潤一郎 / Tanizaki Junichiro - 人魚の嘆き·魔術師
 
 谷崎 潤一郎 / Tanizaki Junichiro - 中國漫遊
@@ -99,6 +101,12 @@ horizontal: false
 谷崎 潤一郎 / Tanizaki Junichiro - 卍
 
 谷崎 潤一郎 / Tanizaki Junichiro - 春琴抄
+
+谷崎 潤一郎 / Tanizaki Junichiro - 痴人之爱
+
+谷崎 潤一郎 / Tanizaki Junichiro - 梦之浮桥
+
+山本 文绪 / Fumio Yamamoto - 無人島のふたり：120日以上生きなくちゃ日記
 
 青山 七恵 / Aoyama Nanae - ひとり日和
 
@@ -149,6 +157,8 @@ horizontal: false
 上野 千鶴子 / Ueno Chizuko - 往復書簡 限界から始まる
 
 宮沢 賢治 / Miyazawa Kenji - 銀河鉄道の夜
+
+石黒 一雄 / Ishiguro Kazuo - KLARA AND THE SUN
 
 Albert Camus - L'Etranger / The Stranger
 
