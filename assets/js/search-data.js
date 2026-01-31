@@ -141,6 +141,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-am-delighted-to-share-our-recent-work-from-computational-robotics-lab-whole-body-inverse-dynamics-mpc-for-legged-loco-manipulation-has-been-accepted-for-publication-to-the-ieee-robotics-and-automation-letters-ra-l-special-issue-on-advancements-in-mpc-and-learning-algorithms-for-legged-robots",
           title: '📑 I am delighted to share our recent work from Computational Robotics Lab,...',
           description: "",
+          section: "News",},{id: "news-i-am-happy-to-share-our-work-from-computational-robotics-lab-caiman-causal-action-influence-detection-for-sample-efficient-loco-manipulation-has-been-accepted-for-publication-in-the-proceedings-of-2026-ieee-international-conference-on-robotics-and-automation-icra-2026",
+          title: '📑 I am happy to share our work from Computational Robotics Lab, CAIMAN:...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
