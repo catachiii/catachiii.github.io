@@ -54,6 +54,20 @@ horizontal: false
 
 村上 春樹 / Murakami Haruki - アンダーグラウンド
 
+村上 春樹 / Murakami Haruki - サラダ好きのライオン 村上ラヂオ1
+
+村上 春樹 / Murakami Haruki - おおきなかぶ、むずかしいアボカド　村上ラヂオ2
+
+村上 春樹 / Murakami Haruki - シドニー!
+
+村上 春樹 / Murakami Haruki - 中国行きのスロウ・ボート
+
+村上 春樹 / Murakami Haruki - 螢・納屋を焼く・その他の短編
+
+村上 春樹 / Murakami Haruki - ラオスにいったい何があるというんですか？
+
+村上 春樹 / Murakami Haruki - 象工場のハッピーエンド
+
 夏目 漱石 / Natsume Soseki - 行人
 
 夏目 漱石 / Natsume Soseki - 心
@@ -200,6 +214,8 @@ Gabriel García Márquez - La increíble y triste historia de la cándida Erénd
 
 Gabriel García Márquez - Cien años de soledad / One Hundred Years of Solitude
 
+Gabriel García Márquez - Ojos de perro azul / Eyes of a Blue Dog
+
 Italo Calvino - Tutte le cosmicomiche / The Complete Cosmicomics
 
 Italo Calvino - Il castello dei denstini incrociati / The Castle of Crossed Destinies
@@ -233,6 +249,10 @@ Aldous Huxley - Brave New World
 Gustave Le Bon - Psychologie des Foules / The Crowd: A Study of the Popular Mind
 
 Virginia Woolf - A Room of One's Own
+
+Dan Brown - The Da Vinci Code
+
+Olivia Laing - The Lonely City: Adventures in the Art of Being Alone
 
 蒋勋 / Chiang Hsun - 孤独六讲
 
@@ -274,6 +294,10 @@ Virginia Woolf - A Room of One's Own
 
 三毛 / Sanmao - 撒哈拉的故事
 
+三毛 / Sanmao - 温柔的夜
+
+三毛 / Sanmao - 流星雨
+
 王小波 / Wang Xiaobo - 沉默的大多数
 
 费孝通 / Fei Xiaotong - 乡土中国
@@ -283,6 +307,10 @@ Virginia Woolf - A Room of One's Own
 史铁生 / Shi Tiesheng - 绿色的梦
 
 史铁生 / Shi Tiesheng - 午餐半小时, etc.
+
+余光中 / Yu Guangzhong - 日不落家
+
+林语堂 / Lin Yutang - 苏东坡传
 
 柴静 / Chai Jing - 看见
 
@@ -317,6 +345,18 @@ Virginia Woolf - A Room of One's Own
 双雪涛 / Shuang Xuetao - 猎人
 
 冯唐 / Feng Tang - 冯唐诗百首
+
+冯唐 / Feng Tang - 活着活着就老了
+
+冯唐 / Feng Tang - 如何成为一个怪物
+
+余秋雨 / Yu Qiuyu - 文化苦旅
+
+余秋雨 / Yu Qiuyu - 山居笔记
+
+余秋雨 / Yu Qiuyu - 中国文脉
+
+余秋雨 / Yu Qiuyu - 山河之书
 
 张嘉佳 / Zhang Jiajia - 从你的全世界路过
 
