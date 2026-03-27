@@ -1,10 +1,22 @@
 ---
 ---
 
+@article{hu2026fbunitree,
+  title={Maximum Entropy Behavior Exploration for Sim2Real Zero-Shot Reinforcement Learning},
+  author={Jiajun Hu and Núria Armengol Urpí and Jin Cheng and Stelian Coros},
+  journal={In submission},
+  year={2026},
+  preview={fbunitree.png},
+  abstract={Zero-shot reinforcement learning (RL) algorithms aim to learn a family of policies from a reward-free dataset, and recover optimal policies for any reward function directly at test time. Naturally, the quality of the pretraining dataset determines the performance of the recovered policies across tasks. However, pre-collecting a relevant, diverse dataset without prior knowledge of the downstream tasks of interest remains a challenge. In this work, we study online zero-shot RL for quadrupedal control on real robotic systems, building upon the Forward-Backward (FB) algorithm. We observe that undirected exploration yields low-diversity data, leading to poor downstream performance and rendering policies impractical for direct hardware deployment. Therefore, we introduce FB-MEBE, an online zero-shot RL algorithm that combines an unsupervised behavior exploration strategy with a regularization critic. FB-MEBE promotes exploration by maximizing the entropy of the achieved behavior distribution. Additionally, a regularization critic shapes the recovered policies toward more natural and physically plausible behaviors. We empirically demonstrate that FB-MEBE achieves and improved performance compared to other exploration strategies in a range of simulated downstream tasks, and that it renders natural policies that can be seamlessly deployed to hardware without further finetuning. Videos and code available on our website.},
+  selected={false},
+  arxiv={2603.25464},
+  website={https://math-286-pro.github.io/FB-MEBE-Web/},
+}
+
 @article{kim2026switch4eai,
   title={Benchmarking Whole-Body Motion Tracking Policies via Just Dance: Using a Commercial Console Game for Embodied-AI Evaluation},
   author={Jeonghwan Kim and Wontaek Kim and Yidan Lu and Jin Cheng and Fatemeh Zargarbashi and Zicheng Zeng and Zekun Qi and Zhiyang Dou and Nitish Sontakke and Donghoon Baek and Li Yi and Sehoon Ha and Tianyu Li},
-  journal={In submission},
+  journal={IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR 2026) Findings},
   year={2026},
   preview={switch.png},
   abstract={Recent advances in whole-body robot control have enabled humanoid and legged robots to perform increasingly agile and coordinated motions. However, standardized benchmarks for evaluating these capabilities in real-world settings, and in direct comparison to humans, remain scarce. Existing evaluations often rely on pre-collected human motion datasets or simulation-based experiments, which limit reproducibility, overlook hardware factors, and hinder fair human–robot comparisons. We present Switch-JustDance, a low-cost and reproducible benchmarking pipeline that leverages motion-sensing console games, Just Dance on the Nintendo Switch, to evaluate robot whole-body control. Using Just Dance on the Nintendo Switch as a representative platform, Switch-JustDance converts in-game choreography into robot-executable motions through streaming, motion reconstruction, and motion retargeting modules and enables users to evaluate controller performance through the game's built-in scoring system. We first validate the evaluation properties of Just Dance, analyzing its reliability, validity, sensitivity, and potential sources of bias. Our results show that the platform provides consistent and interpretable performance measures, making it a suitable tool for benchmarking embodied AI. Building on this foundation, we benchmark three state-of-the-art humanoid whole-body controllers on hardware and provide insights into their relative strengths and limitations. },
@@ -109,7 +121,7 @@
   arxiv={2404.11557},
   preview={stmr.gif},
   abstract={This work introduces a motion retargeting approach for legged robots, which aims to create motion controllers that imitate the fine behavior of animals. Our approach, namely spatio-temporal motion retargeting (STMR), guides imitation learning procedures by transferring motion from source to target, effectively bridging the morphological disparities by ensuring the feasibility of imitation on the target system. Our STMR method comprises two components: spatial motion retargeting (SMR) and temporal motion retargeting (TMR). On the one hand, SMR tackles motion retargeting at the kinematic level by generating kinematically feasible whole-body motions from keypoint trajectories. On the other hand, TMR aims to retarget motion at the dynamic level by optimizing motion in the temporal domain. We showcase the effectiveness of our method in facilitating Imitation Learning (IL) for complex animal movements through a series of simulation and hardware experiments. In these experiments, our STMR method successfully tailored complex animal motions from various media, including video captured by a hand-held camera, to fit the morphology and physical properties of the target robots. This enabled RL policy training for precise motion tracking, while baseline methods struggled with highly dynamic motion involving flying phases. Moreover, we validated that the control policy can successfully imitate six different motions in two quadruped robots with different dimensions and physical properties in real-world settings.},
-  selected={true},
+  selected={false},
   website={https://taerimyoon.me/Spatio-Temporal-Motion-Retargeting-for-Quadruped-Robots/},
   video={https://youtu.be/rXW69cSl25A}
 }
@@ -122,7 +134,7 @@
   arxiv={2502.12674},
   preview={sata.png},
   abstract={Despite recent advances in learning-based controllers for legged robots, deployments in human-centric environments remain limited by safety concerns. Most of these approaches use position-based control, where policies output target joint angles that must be processed by a low-level controller (e.g., PD or impedance controllers) to compute joint torques. Although impressive results have been achieved in controlled real-world scenarios, these methods often struggle with compliance and adaptability when encountering environments or disturbances unseen during training, potentially resulting in extreme or unsafe behaviors. Inspired by how animals achieve smooth and adaptive movements by controlling muscle extension and contraction, torque-based policies offer a promising alternative by enabling precise and direct control of the actuators in torque space. In principle, this approach facilitates more effective interactions with the environment, resulting in safer and more adaptable behaviors. However, challenges such as a highly nonlinear state space and inefficient exploration during training have hindered their broader adoption. To address these limitations, we propose SATA, a bio-inspired framework that mimics key biomechanical principles and adaptive learning mechanisms observed in animal locomotion. Our approach effectively addresses the inherent challenges of learning torque-based policies by significantly improving early-stage exploration, leading to high-performance final policies. Remarkably, our method achieves zero-shot sim-to-real transfer. Our experimental results indicate that SATA demonstrates remarkable compliance and safety, even in challenging environments such as soft/slippery terrain or narrow passages, and under significant external disturbances, highlighting its potential for practical deployments in human-centric and safety-critical scenarios.},
-  selected={true},
+  selected={false},
   video={https://youtu.be/b1cpTq0Rc5w},
   website={https://github.com/marmotlab/SATA},
 }
