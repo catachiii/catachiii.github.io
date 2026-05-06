@@ -144,6 +144,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-am-happy-to-share-our-work-from-computational-robotics-lab-caiman-causal-action-influence-detection-for-sample-efficient-loco-manipulation-has-been-accepted-for-publication-in-the-proceedings-of-2026-ieee-international-conference-on-robotics-and-automation-icra-2026",
           title: '📑 I am happy to share our work from Computational Robotics Lab, CAIMAN:...',
           description: "",
+          section: "News",},{id: "news-i-am-happy-to-share-our-work-maximum-entropy-behavior-exploration-for-sim2real-zero-shot-reinforcement-learning-from-computational-robotics-lab-has-been-accepted-for-publication-in-reinforcement-learning-conference-rlc-2026-please-check-the-project-website-for-more-details",
+          title: '📑 I am happy to share our work Maximum Entropy Behavior Exploration for...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
