@@ -147,6 +147,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-am-happy-to-share-our-work-maximum-entropy-behavior-exploration-for-sim2real-zero-shot-reinforcement-learning-from-computational-robotics-lab-has-been-accepted-for-publication-in-reinforcement-learning-conference-rlc-2026-please-check-the-project-website-for-more-details",
           title: '📑 I am happy to share our work Maximum Entropy Behavior Exploration for...',
           description: "",
+          section: "News",},{id: "news-i-spent-a-wonderful-week-at-the-2026-international-conference-on-robotics-and-automation-icra-2026-in-vienna-austria",
+          title: '🇦🇹 I spent a wonderful week at the 2026 International Conference on Robotics...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
