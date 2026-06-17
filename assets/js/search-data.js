@@ -150,6 +150,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-spent-a-wonderful-week-at-the-2026-international-conference-on-robotics-and-automation-icra-2026-in-vienna-austria",
           title: '🇦🇹 I spent a wonderful week at the 2026 International Conference on Robotics...',
           description: "",
+          section: "News",},{id: "news-i-am-happy-to-share-my-collaboration-work-with-multi-agent-robotic-motion-laboratory-at-national-university-of-singapore-apex-action-priors-enable-efficient-exploration-for-robust-motion-tracking-on-legged-robots-has-been-accepted-for-publication-in-the-proceedings-of-2026-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-2026",
+          title: '📑 I am happy to share my collaboration work with Multi-Agent Robotic Motion...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
