@@ -23,6 +23,17 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+// Cursor-follower background decoration: fixed, behind all content, and never
+// intercepting pointer events.
+#cursor-follower-bg {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+
 table {
   td,
   th {

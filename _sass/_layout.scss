@@ -2,10 +2,16 @@
  * Content
  ******************************************************************************/
 
+// Background lives on <html> so a fixed z-index:-1 background canvas (the
+// cursor-follower decoration) can paint between it and the page content.
+html {
+  background-color: var(--global-bg-color);
+}
+
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
-  background-color: var(--global-bg-color);
+  background-color: transparent;
 
   h1,
   h2,
