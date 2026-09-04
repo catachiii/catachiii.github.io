@@ -1,6 +1,30 @@
 ---
 ---
 
+@article{yoon2026teaching,
+  title={Teaching Robots Like Dogs: Learning Agile Navigation from Luring, Gesture, and Speech},
+  author={Taerim Yoon and Dongho Kang and Jin Cheng and Fatemeh Zargarbashi and Yijiang Huang and Minsung Ahn and Stelian Coros and Sungjoon Choi},
+  journal={Conference on Robot Learning (CoRL 2026)},
+  year={2026},
+  preview={teachdog.png},
+  abstract={In this work, we aim to enable legged robots to learn how to interpret human social cues and produce appropriate behaviors through physical human guidance. However, learning through physical engagement can place a heavy burden on users when the process requires large amounts of human-provided data. To address this, we propose a human-in-the-loop framework that enables robots to acquire navigational behaviors in a data-efficient manner and to be controlled via multimodal natural human inputs, specifically gestural and verbal commands. We reconstruct interaction scenes using a physics-based simulation and aggregate data to mitigate distributional shifts arising from limited demonstration data. Our progressive goal cueing strategy adaptively feeds appropriate commands and navigation goals during training, leading to more accurate navigation and stronger alignment between human input and robot behavior. We evaluate our framework across six real-world agile navigation scenarios, including jumping over or avoiding obstacles. Our experimental results show that our proposed method succeeds in almost all trials across these scenarios, achieving a 97.15% task success rate with less than 1 hour of demonstration data in total.},
+  selected={true},
+  arxiv={2601.08422},
+}
+
+@article{sukhija2025tarc,
+  title={TARC: Time-Adaptive Robotic Control},
+  author={Arnav Sukhija and Lenart Treven and Jin Cheng and Florian Dörfler and Stelian Coros and Andreas Krause},
+  journal={Conference on Robot Learning (CoRL 2026)},
+  year={2026},
+  arxiv={2510.23176},
+  preview={tarc.png},
+  abstract={Fixed-frequency control in robotics imposes a trade-off between the efficiency of low-frequency control and the robustness of high-frequency control, a limitation not seen in adaptable biological systems. We address this with a reinforcement learning approach in which policies jointly select control actions and their application durations, enabling robots toautonomously modulate their control frequency in response to situational demands. We validate our method with zero-shot sim-to-real experiments on two distinct hardware platforms: a high-speed RC car and a quadrupedal robot. Our method matches or outperforms fixed-frequency baselines in terms of rewards while significantly reducing the control frequency and exhibiting adaptive frequency control under real-world conditions.},
+  selected={true},
+  website={https://arnavsukhija.github.io/projects/tarc/},
+  video={https://youtu.be/w0y6uusnPYc},
+}
+
 @article{sood2026apex,
   title={APEX: Action Priors Enable Efficient Exploration for Robust Motion Tracking on Legged Robots},
   author={Shivam Sood and Laukik Bhalchandra Nakhwa and Ge Sun and Yuhong Cao and Jin Cheng and Fatemeh Zargarbashi and Taerim Yoon and Sungjoon Choi and Stelian Coros and Guillaume Adrien Sartoretti},
@@ -50,16 +74,6 @@
   video={https://youtu.be/DukyUGNYf5A},
 }
 
-@article{yoon2026teaching,
-  title={Teaching Robots Like Dogs: Learning Agile Navigation from Luring, Gesture, and Speech},
-  author={Taerim Yoon and Dongho Kang and Jin Cheng and Fatemeh Zargarbashi and Yijiang Huang and Minsung Ahn and Stelian Coros and Sungjoon Choi},
-  journal={In submission},
-  year={2026},
-  preview={teachdog.png},
-  abstract={In this work, we aim to enable legged robots to learn how to interpret human social cues and produce appropriate behaviors through physical human guidance. However, learning through physical engagement can place a heavy burden on users when the process requires large amounts of human-provided data. To address this, we propose a human-in-the-loop framework that enables robots to acquire navigational behaviors in a data-efficient manner and to be controlled via multimodal natural human inputs, specifically gestural and verbal commands. We reconstruct interaction scenes using a physics-based simulation and aggregate data to mitigate distributional shifts arising from limited demonstration data. Our progressive goal cueing strategy adaptively feeds appropriate commands and navigation goals during training, leading to more accurate navigation and stronger alignment between human input and robot behavior. We evaluate our framework across six real-world agile navigation scenarios, including jumping over or avoiding obstacles. Our experimental results show that our proposed method succeeds in almost all trials across these scenarios, achieving a 97.15% task success rate with less than 1 hour of demonstration data in total.},
-  selected={false},
-  arxiv={2601.08422},
-}
 
 @article{yuan2026caiman,
   title={CAIMAN: Causal Action Influence Detection for Sample Efficient Loco-Manipulation},
@@ -71,19 +85,6 @@
   abstract={Enabling legged robots to perform non-prehensile loco-manipulation with large and heavy objects is crucial for enhancing their versatility. However, this is a challenging task, often requiring sophisticated planning strategies or extensive task-specific reward shaping, especially in unstructured scenarios with obstacles. In this work, we present CAIMAN, a novel framework for learning loco-manipulation that relies solely on sparse task rewards. We leverage causal action influence to detect states where the robot is in control over other entities in the environment, and use this measure as an intrinsically motivated objective to enable sample-efficient learning. We employ a hierarchical control strategy, combining a low-level locomotion policy with a high-level policy that prioritizes task-relevant velocity commands. Through simulated and real-world experiments, including object manipulation with obstacles, we demonstrate the framework's superior sample efficiency, adaptability to diverse environments, and successful transfer to hardware without fine-tuning. The proposed approach paves the way for scalable, robust, and autonomous loco-manipulation in real-world applications.},
   selected={true},
   video={https://youtu.be/dNyvT04Cqaw?si=rPrMmnhkdW9503V0},
-}
-
-@article{sukhija2025tarc,
-  title={TARC: Time-Adaptive Robotic Control},
-  author={Arnav Sukhija and Lenart Treven and Jin Cheng and Florian Dörfler and Stelian Coros and Andreas Krause},
-  journal={Workshop on Aligning Reinforcement Learning Experimentalists and Theorists at NeurIPS 2025},
-  year={2025},
-  arxiv={2510.23176},
-  preview={tarc.png},
-  abstract={Fixed-frequency control in robotics imposes a trade-off between the efficiency of low-frequency control and the robustness of high-frequency control, a limitation not seen in adaptable biological systems. We address this with a reinforcement learning approach in which policies jointly select control actions and their application durations, enabling robots toautonomously modulate their control frequency in response to situational demands. We validate our method with zero-shot sim-to-real experiments on two distinct hardware platforms: a high-speed RC car and a quadrupedal robot. Our method matches or outperforms fixed-frequency baselines in terms of rewards while significantly reducing the control frequency and exhibiting adaptive frequency control under real-world conditions.},
-  selected={false},
-  website={https://arnavsukhija.github.io/projects/tarc/},
-  video={https://youtu.be/w0y6uusnPYc},
 }
 
 @article{molnar2025whole-body,
