@@ -153,6 +153,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-am-happy-to-share-my-collaboration-work-with-multi-agent-robotic-motion-laboratory-at-national-university-of-singapore-apex-action-priors-enable-efficient-exploration-for-robust-motion-tracking-on-legged-robots-has-been-accepted-for-publication-in-the-proceedings-of-2026-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-2026",
           title: '📑 I am happy to share my collaboration work with Multi-Agent Robotic Motion...',
           description: "",
+          section: "News",},{id: "news-i-am-delighted-to-share-our-recent-collaboration-between-robot-intelligence-lab-rilab-at-korea-university-and-computational-robotics-lab-at-eth-zurich-on-teaching-robots-like-dogs-learning-agile-navigation-from-luring-gesture-and-speech-which-has-been-accepted-for-publication-on-2026-conference-on-robot-learning-corl-2026",
+          title: '📑 I am delighted to share our recent collaboration between Robot Intelligence Lab...',
+          description: "",
+          section: "News",},{id: "news-i-am-delighted-to-share-our-recent-collaboration-between-learning-amp-amp-adaptive-systems-group-las-and-computational-robotics-lab-at-eth-zurich-on-tarc-time-adaptive-robotic-control-which-has-been-accepted-for-publication-on-2026-conference-on-robot-learning-corl-2026",
+          title: '📑 I am delighted to share our recent collaboration between Learning &amp;amp;amp; Adaptive...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
