@@ -1,5 +1,15 @@
 ---
 ---
+@article{chen2026kino,
+  title={KINO: A Keyframe Interface for VLM Planning and Whole-Body Control in Humanoid Loco-Manipulation},
+  author={Sitong Chen and Fatemeh Zargarbashi and Jin Cheng and Tianxu An and Stelian Coros},
+  journal={In submission},
+  year={2026},
+  preview={kino.png},
+  abstract={Humanoid loco-manipulation requires robots to interpret task instructions and scene semantics while executing coordinated whole-body motions. We propose a hierarchical framework that uses motion keyframes as an intermediate representation between Vision-Language Model (VLM) planning and Reinforcement Learning (RL) control. Each keyframe specifies a target whole-body robot pose and, when applicable, an object pose. Given a language instruction, scene observations, and execution feedback, the VLM selects successive task-relevant keyframes from a predefined library. The selected keyframes are retargeted to the current scene to account for object poses and dimensions. A keyframe-conditioned whole-body policy then generates joint-level actions to reach these goals. We introduce a saliency-based keyframe sampling strategy for low-level policy training that improves end-to-end task success rate from 44% to 92% when using sparse VLM keyframes. We evaluate our framework on object pickup, transport, and placement tasks in simulation and on a Unitree G1 humanoid. The system successfully performs both one- and two-handed manipulation and generalises to placement locations beyond the training reference data.},
+  selected={false},
+  arxiv={2609.18869},
+}
 
 @article{yoon2026teaching,
   title={Teaching Robots Like Dogs: Learning Agile Navigation from Luring, Gesture, and Speech},
