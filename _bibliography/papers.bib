@@ -1,5 +1,17 @@
 ---
 ---
+@article{kim2026dtmr,
+  title={Dense Temporal Motion Retargeting for Legged Robots},
+  author={Jaeryeong Kim and Taerim Yoon and Jin Cheng and Sungjoon Choi and Stelian Coros},
+  journal={In submission},
+  year={2026},
+  preview={dtmr.png},
+  abstract={Legged robots can learn expressive whole-body skills from the motions of humans and animals. Due to the morphology gap between the source and the robot, however, the motion must be tailored to the dynamic properties of the robot. In particular, dynamic motions such as a jump require careful adjustment, since their timing and control are interdependent. We propose dense temporal motion retargeting (DTMR), which jointly optimizes timing and control within a single optimization, where dense means that the timing is adjusted for every control step. This dense formulation enables DTMR to deform only the parts of the motion that need a change in timing. The problem is solved with sampling-based model predictive control (MPC) in parallel on a GPU. We evaluate DTMR against baselines on two hours of human motion with four humanoid robots, where the results show that DTMR outperforms baseline methods, particularly on dynamic motions. We also show that allowing more temporal deformation yields more precise retargeting. We further compare DTMR with a baseline that optimizes the temporal dimension, where the result shows that DTMR retargets more precisely under the same deformation budget while being ~19x faster. Lastly, policies trained on our references transfer to a real humanoid robot.},
+  selected={false},
+  website={https://jaeryeongnicolekim.com/Dense-Temporal-Motion-Retargeting-For-Legged-Robots/},
+  arxiv={2609.38617},
+}
+
 @article{aditya2026bcg,
   title={Bundled Contact Gradients: Stabilizing Differentiable Simulation for Deployable Dynamic Tasks},
   author={Dyuman Aditya and Jin Cheng and Clemens Schwarke and Quan Nguyen and Gaurav Sukhatme and Stelian Coros and Gabriele Fadini},
