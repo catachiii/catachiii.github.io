@@ -7,6 +7,7 @@ subtitle: <img src="../assets/img/chinese_name.png" alt="jin_cheng" width="80"/>
 profile:
   align: right
   image: jincheng.png
+  image_dark: jincheng_dark.png # shown instead of `image` when dark mode is active
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -21,13 +22,14 @@ announcements:
 
 Hello there!
 
-I'm a doctoral student in Computer Science at <img src="../assets/img/eth_short.png" alt="eth" height="20"/> [ETH Zürich](https://ethz.ch/en.html), Switzerland 🇨🇭, affiliated with [Computational Robotics Lab](http://crl.ethz.ch/), advised by <img src="../assets/img/eth_short.png" alt="eth" height="20"/> [Prof. Stelian Coros](http://crl.ethz.ch/people/coros/index.html) and <img src="../assets/img/cmu-lettermark-r.png" alt="cmu" height="10"/> [Prof. Guanya Shi](https://www.gshi.me/).
+I'm a doctoral student in Computer Science at [ETH Zürich](https://ethz.ch/en.html), Switzerland 🇨🇭, affiliated with [Computational Robotics Lab](http://crl.ethz.ch/), advised by [Prof. Stelian Coros](http://crl.ethz.ch/people/coros/index.html) and [Prof. Guanya Shi](https://www.gshi.me/).
 
-Prior to this, I received my master's degree in mechanical engineering at <img src="../assets/img/eth_short.png" alt="eth" height="20"/> [ETH Zürich](https://ethz.ch/en.html) and my bachelor's degree in vehicle engineering at <img src="../assets/img/thu_short.png" alt="eth" height="15"/> [Tsinghua University](https://www.tsinghua.edu.cn/en/).
+Prior to this, I received my master's degree in mechanical engineering at [ETH Zürich](https://ethz.ch/en.html) and my bachelor's degree in vehicle engineering at [Tsinghua University](https://www.tsinghua.edu.cn/en/).
 
 #### - research
+My research explores how legged robots 🐕 💃🏻, especially humanoids, can learn to move and interact with the physical world through learning- and model-based control.
 
-My research interest lies in empowering mobile robots with the ability of locomotion and manipulation through reinforcement learning. I mainly focus on legged systems such as quadrupeds 🐕🐈, humanoids 🏃🏻💃🏻.
+I am particularly interested in reinforcemen learning, physics-based simulation, and human motion priors to guide skill learning and motion generation. My goal is to enable robots to acquire dynamic and versatile skills and adapt their behavior across tasks, environments, and embodiments.
 
 #### - misc.
 

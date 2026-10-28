@@ -24,8 +24,31 @@ let setThemeSetting = (themeSetting) => {
 // Apply the computed dark or light theme to the website.
 let applyTheme = () => {
   let theme = determineComputedTheme();
+  let previousTheme = document.documentElement.getAttribute("data-theme");
 
-  transTheme();
+  if (previousTheme === null || previousTheme === theme) {
+    // Page load, or the computed theme did not change (e.g. "system" -> "light" on a light system):
+    // nothing to animate.
+    updateTheme(theme);
+  } else if (document.startViewTransition) {
+    // Cross-fade a snapshot of the whole page (duration set on ::view-transition-old/new(root) in
+    // _base.scss), so that everything - images, tables, borders - changes at the same pace. On top of
+    // that, each word on screen fades with its own random timing (see "Per-word colour fade" below).
+    const words = prepareWordFade();
+    const transition = document.startViewTransition(() => updateTheme(theme));
+    // Start the word fades when the cross-fade starts (or right away, should the browser skip it).
+    transition.ready.catch(() => {}).then(() => startWordFade(words));
+  } else {
+    // Fallback for browsers without the View Transitions API: per-element CSS transitions.
+    const words = prepareWordFade();
+    transTheme();
+    updateTheme(theme);
+    startWordFade(words);
+  }
+};
+
+// Update everything on the page that depends on the theme.
+let updateTheme = (theme) => {
   setHighlight(theme);
   setGiscusTheme(theme);
   setSearchTheme(theme);
@@ -249,6 +272,99 @@ let transTheme = () => {
   window.setTimeout(() => {
     document.documentElement.classList.remove("transition");
   }, 500);
+};
+
+// Per-word colour fade
+// -----------------------------------------------------------------------------
+// On a theme change, every word that is (nearly) on screen fades from its old colour to its new one with
+// its own random delay and duration, on top of the whole-page cross-fade. For that, words are wrapped in
+// <theme-word> elements: a custom inline element, so that no stylesheet rule for span, em, ... applies to
+// it and it simply inherits the colour of the text it is part of.
+const WORD_FADE = {
+  maxDelay: 600, // ms. Random values are squared, so most words start early and a few straggle.
+  minDuration: 250, // ms
+  maxDuration: 1000, // ms
+  easing: "ease-in-out",
+  viewportMargin: 0.5, // text further than half a viewport height off screen is left alone (it switches instantly)
+};
+// Text inside these elements is left alone (code, form controls, embedded content, math, ...).
+const WORD_FADE_SKIP =
+  "script, style, noscript, template, textarea, input, select, button, pre, code, kbd, samp, svg, math, mjx-container, .MathJax, iframe, canvas, video, audio, ninja-keys, [contenteditable]";
+
+// Wrap each word of the text that is (nearly) on screen in a <theme-word> element. Safe to call
+// repeatedly: text that is already wrapped, off screen, hidden, or a direct child of a flex/grid container
+// (splitting it would drop the spaces between the words) is skipped.
+let wrapWords = () => {
+  const margin = window.innerHeight * WORD_FADE.viewportMargin;
+  const skipCache = new Map();
+  const skip = (parent) => {
+    if (!skipCache.has(parent)) {
+      const rect = parent.getBoundingClientRect();
+      skipCache.set(
+        parent,
+        parent.closest(WORD_FADE_SKIP + ", theme-word") !== null ||
+          (rect.width === 0 && rect.height === 0) ||
+          rect.bottom < -margin ||
+          rect.top > window.innerHeight + margin ||
+          /flex|grid/.test(getComputedStyle(parent).display)
+      );
+    }
+    return skipCache.get(parent);
+  };
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+    acceptNode: (node) => (/\S/.test(node.data) && !skip(node.parentElement) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT),
+  });
+  const textNodes = [];
+  while (walker.nextNode()) textNodes.push(walker.currentNode); // collect first, replacing nodes while walking is unsafe
+  for (const node of textNodes) {
+    const fragment = document.createDocumentFragment();
+    for (const token of node.data.split(/(\s+)/)) {
+      if (token === "") continue;
+      if (/^\s+$/.test(token)) {
+        fragment.appendChild(document.createTextNode(token));
+      } else {
+        const word = document.createElement("theme-word");
+        word.textContent = token;
+        fragment.appendChild(word);
+      }
+    }
+    node.parentNode.replaceChild(fragment, node);
+  }
+};
+
+// Collect the words to animate together with the colour they have right now (possibly half-way through a
+// previous fade), so that the new fade starts from exactly what is visible.
+let prepareWordFade = () => {
+  if (!document.body || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    return [];
+  }
+  wrapWords();
+  const margin = window.innerHeight * WORD_FADE.viewportMargin;
+  const words = [];
+  for (const element of document.querySelectorAll("theme-word")) {
+    const rect = element.getBoundingClientRect();
+    if ((rect.width === 0 && rect.height === 0) || rect.bottom < -margin || rect.top > window.innerHeight + margin) {
+      continue;
+    }
+    words.push({ element: element, color: getComputedStyle(element).color });
+  }
+  return words;
+};
+
+// Fade each collected word from its previous colour to its new one (the colour it has now that the theme
+// is applied), with a random delay and duration per word.
+let wordAnimations = [];
+let startWordFade = (words) => {
+  const random = () => Math.random() ** 2; // biased towards 0
+  wordAnimations.forEach((animation) => animation.cancel()); // a previous fade may still be running
+  wordAnimations = words.map((word) =>
+    word.element.animate([{ color: word.color, offset: 0 }], {
+      delay: random() * WORD_FADE.maxDelay,
+      duration: WORD_FADE.minDuration + random() * (WORD_FADE.maxDuration - WORD_FADE.minDuration),
+      easing: WORD_FADE.easing,
+      fill: "backwards", // keep the old colour during the delay; afterwards the element's own colour shows
+    })
+  );
 };
 
 // Determine the expected state of the theme toggle, which can be "dark", "light", or

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(timeout 240 bundle exec jekyll build)",
+      "Bash(node --check assets/js/cursor-follower.js)"
+    ]
+  }
+}

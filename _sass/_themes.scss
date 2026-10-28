@@ -65,6 +65,16 @@
     display: none;
   }
 
+  // The dark profile picture is stacked above the light one (see .profile-image-switch in _base.scss).
+  // Unlike `display`, opacity and visibility are animated by the theme transition (html.transition in
+  // _base.scss), so the pictures cross-fade together with the rest of the page instead of being swapped.
+  // `visibility` only flips at the end of the transition, so the hidden picture is still drawn
+  // underneath while the other one fades, and afterwards it is skipped by screen readers.
+  .profile-image-dark {
+    opacity: 0;
+    visibility: hidden;
+  }
+
   #back-to-top {
     color: var(--global-back-to-top-text-color);
     background: var(--global-back-to-top-bg-color);
@@ -120,6 +130,15 @@ html[data-theme="dark"] {
 
   .only-dark {
     display: block;
+  }
+
+  .profile-image-light {
+    visibility: hidden;
+  }
+
+  .profile-image-dark {
+    opacity: 1;
+    visibility: visible;
   }
 }
 

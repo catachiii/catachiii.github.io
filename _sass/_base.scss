@@ -206,6 +206,16 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
+  // The light and dark profile pictures are rendered on top of each other (same grid cell) so that the
+  // theme toggle can cross-fade them. Which one is visible is set per theme in _themes.scss.
+  .profile-image-switch {
+    display: grid;
+
+    > * {
+      grid-area: 1 / 1;
+    }
+  }
+
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -910,6 +920,15 @@ code {
 }
 
 // Transitioning Themes
+// Browsers with the View Transitions API cross-fade a snapshot of the whole page when the theme changes
+// (see applyTheme in theme.js). On top of it, every word on screen fades with its own random timing
+// (WORD_FADE in theme.js); the page cross-fade is kept short so that it does not mask the quick words.
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 400ms;
+}
+
+// Fallback for browsers without the View Transitions API: transition every element individually.
 html.transition,
 html.transition *,
 html.transition *:before,
